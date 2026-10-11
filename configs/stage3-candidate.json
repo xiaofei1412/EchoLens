@@ -1,0 +1,27 @@
+{
+  "version": "stage3-candidate-v1",
+  "seed": 20261011,
+  "model": {
+    "repo_id": "Qwen/Qwen3.5-4B",
+    "revision": "851bf6e806efd8d0a36b00ddf55e13ccb7b8cd0a",
+    "local_dir": "models/Qwen3.5-4B",
+    "role": "text-only extraction and QLoRA probe"
+  },
+  "adapter": "artifacts/stage-03/sft-full-v2/checkpoint-0102-29217c/adapter",
+  "adapter_files": {
+    "adapter_config.json": "24dc201fbb37aa9ebe9f2074e4a16e168bc3b5d2f57ffe73632cb17234dd65f9",
+    "adapter_model.safetensors": "29c576d664ada7cd43ee385c9565bd3255db9b0b60b6798c370b21fd62eacc42"
+  },
+  "prompt_path": "data/training/stage3-sft-v1/system.txt",
+  "aspects_path": "data/training/stage3-sft-v1/aspects.json",
+  "prompt_sha256": "b97e37ca349c20de42ab2c4885870c95d49e1de312e9161801baa2a3018de7cc",
+  "aspects_sha256": "5fb0d89d273b55e2efaa4a4252a4393360323cd0cd6dcda4591263af70120155",
+  "max_input_tokens": 4096,
+  "max_new_tokens": 4096,
+  "enable_thinking": false,
+  "do_sample": false,
+  "embedding_batch_size": 16,
+  "topic_distance_threshold": 0.35,
+  "topic_min_feedbacks": 10,
+  "topic_linkage": "average"
+}

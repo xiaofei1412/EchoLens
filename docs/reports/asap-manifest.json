@@ -1,0 +1,36 @@
+{
+  "repository": "Meituan-Dianping/asap",
+  "revision": "975122a60065240124df62cb4d5dbfd19ed9ef2c",
+  "files": [
+    {
+      "path": "README.md",
+      "url": "https://raw.githubusercontent.com/Meituan-Dianping/asap/975122a60065240124df62cb4d5dbfd19ed9ef2c/README.md",
+      "bytes": 2114,
+      "sha256": "076517c161644c6fc5b08dbd15c3508950c05ed857f683e073fbd9ed51821208"
+    },
+    {
+      "path": "LICENSE",
+      "url": "https://raw.githubusercontent.com/Meituan-Dianping/asap/975122a60065240124df62cb4d5dbfd19ed9ef2c/LICENSE",
+      "bytes": 11357,
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+    },
+    {
+      "path": "data/train.csv",
+      "url": "https://raw.githubusercontent.com/Meituan-Dianping/asap/975122a60065240124df62cb4d5dbfd19ed9ef2c/data/train.csv",
+      "bytes": 36475033,
+      "sha256": "30912f5e2a866a4c0f654ec3461215f008b8b90d208f2c410f03369f43655de9"
+    },
+    {
+      "path": "data/dev.csv",
+      "url": "https://raw.githubusercontent.com/Meituan-Dianping/asap/975122a60065240124df62cb4d5dbfd19ed9ef2c/data/dev.csv",
+      "bytes": 4891291,
+      "sha256": "54efc8f6bc26d63a9f87e3418cd68e47f2eb13a19085e85abe63f3eafafe2b44"
+    },
+    {
+      "path": "data/test.csv",
+      "url": "https://raw.githubusercontent.com/Meituan-Dianping/asap/975122a60065240124df62cb4d5dbfd19ed9ef2c/data/test.csv",
+      "bytes": 4850010,
+      "sha256": "217dd27c1d5699067952474e40824935d56ecf8b5047950d6da3d1222976a2bd"
+    }
+  ]
+}

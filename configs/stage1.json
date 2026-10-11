@@ -1,0 +1,21 @@
+{
+  "seed": 20261008,
+  "processing_version": "asap-stage1-v1",
+  "near_duplicates": {"char_ngram": 5, "num_perm": 128, "lsh_threshold": 0.7, "verified_jaccard": 0.9, "min_chars": 50},
+  "tfidf": {"ngram_range": [1, 2], "min_df": 3, "max_features": 120000, "C_candidates": [0.5, 1.0], "max_iter": 3000},
+  "encoder": {
+    "repo_id": "hfl/chinese-roberta-wwm-ext",
+    "revision": "5c58d0b8ec1d9014354d691c538661bf00bfdb44",
+    "local_dir": "models/chinese-roberta-wwm-ext",
+    "max_length": 384,
+    "batch_size": 16,
+    "epochs": 3,
+    "learning_rate": 0.00002,
+    "weight_decay": 0.01,
+    "warmup_ratio": 0.1,
+    "precision": "bf16",
+    "selection_metric": "dev.pairs.micro_f1"
+  },
+  "class_order": [-2, -1, 0, 1],
+  "test_policy": "Freeze both models and preprocessing before evaluating test once; no test-based tuning."
+}

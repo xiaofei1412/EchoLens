@@ -1,0 +1,59 @@
+{
+  "date": "2026-10-12",
+  "version": "0.1.0rc1",
+  "status": "local_candidate_pending_user_review",
+  "published": false,
+  "tests": {
+    "passed": 79,
+    "seconds": 12.96
+  },
+  "gpu_engineering_smoke": {
+    "clean_venv": true,
+    "system_site_packages": false,
+    "python": "3.14.6",
+    "versions": {
+      "torch": "2.10.0+cu128",
+      "transformers": "5.19.0",
+      "peft": "0.19.1",
+      "bitsandbytes": "0.50.2",
+      "accelerate": "1.13.0",
+      "streamlit": "1.64.0"
+    },
+    "valid_imported": 2,
+    "rejected_imports": 1,
+    "processed": 2,
+    "valid": 2,
+    "opinions": 5,
+    "topics": 0,
+    "saved_generation_seconds": 17.54897139966488,
+    "raw_data_in_source": false,
+    "report_bytes": 2016,
+    "sample_type": "synthetic engineering only"
+  },
+  "ui_only": {
+    "no_torch": true,
+    "no_transformers": true,
+    "no_private_data_or_models": true,
+    "main_and_research_pages": 3,
+    "python": "3.14.6"
+  },
+  "protection": {
+    "files_checked": 12974,
+    "changed_count": 0,
+    "changed_paths": []
+  },
+  "model_bundle": {
+    "archive": "echolens-v0.1-models.zip",
+    "sha256": "6a7a1b7d5b12c673f2496fe5f06adb66fd6eda5ad32673973612d0651cd5201b",
+    "bytes": 474430258,
+    "files": 11
+  },
+  "upstream_verified_files": 34,
+  "fresh_remote_base_model_download_tested": false,
+  "environment_scope": "new isolated venvs and separate source checkout on existing Windows 11 host; verified base-model cache reused",
+  "installation_checks": {
+    "full_pip_check": "passed",
+    "ui_pip_check": "passed",
+    "server_health": "ok"
+  }
+}

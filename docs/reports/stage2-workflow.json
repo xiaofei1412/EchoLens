@@ -1,0 +1,43 @@
+{
+  "dataset": "asap-demo-1000",
+  "snapshot_sha256": "349d685d402c526dc819d95ffc5a326f064d340000e1fd986409a9b63d824674",
+  "rows": 1000,
+  "classified": 1000,
+  "extraction_attempted": 1000,
+  "structure_and_evidence_valid": 885,
+  "valid_rate": 0.885,
+  "opinions": 2344,
+  "all_accepted_evidence_spans_match": true,
+  "failures": {
+    "意见数量超过上限": 102,
+    "意图或原文片段编号无效": 6,
+    "方面或情感标签无效": 2,
+    "Expecting ',' delimiter: line 2 column 1 (char 162)": 1,
+    "Expecting ',' delimiter: line 1 column 479 (char 478)": 1,
+    "Unterminated string starting at: line 1 column 480 (char 479)": 1,
+    "Unterminated string starting at: line 1 column 494 (char 493)": 1,
+    "Unterminated string starting at: line 1 column 495 (char 494)": 1
+  },
+  "topics": 2,
+  "outlier_opinions": 802,
+  "topic_sizes": {
+    "0": 1534,
+    "1": 8
+  },
+  "topic_pipeline_seconds": 22.164569899905473,
+  "naming_methods": {
+    "qwen_candidate": 2
+  },
+  "human_reviewed_records": 0,
+  "generation_batch_seconds_allocated_to_rows": 1157.2598810989875,
+  "python_sql_counts_equal": true,
+  "local_report_sha256": "43ac1600fae3eacb552280adbd1933dd82c06cf61de61a77f150eea3ba6a0e90",
+  "limitations": [
+    "Train-only workflow demonstration, not held-out accuracy",
+    "Sentence-ID grounding guarantees position existence, not semantic support",
+    "At most 3 opinions per review, incomplete recall",
+    "Failures retained for review; no silent output truncation",
+    "Topic names and representatives are machine candidates",
+    "One cluster contains most opinions across multiple aspects; topic quality is not release-ready"
+  ]
+}

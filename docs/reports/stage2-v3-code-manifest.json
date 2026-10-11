@@ -1,0 +1,82 @@
+{
+  "created_at": "2026-10-09T07:35:57.429955+00:00",
+  "note": "Stage 2 v3 iteration completed; granularity improved, semantic superiority and content acceptance not established. V1/v2 are preserved. Raw data, logs, reviews and weights stay local.",
+  "prompt_sha256": "a574c041f940125f708f3802eaa199ddddb75f180706893d2fd219145ed57f9d",
+  "source_extractions_sha256": "1e38323541dd064fe778b8a1eecd36d19f4f166900bc5c932225b5bab1fb5eeb",
+  "classifier_sha256": "de6b70bfdee2e372c3bdabebe7e113632ed89e9ae14953bc5f2a949dc4dbf3a4",
+  "models": {
+    "generation": {
+      "repo_id": "Qwen/Qwen3.5-4B",
+      "revision": "851bf6e806efd8d0a36b00ddf55e13ccb7b8cd0a",
+      "local_dir": "models/Qwen3.5-4B",
+      "role": "text-only extraction and QLoRA probe"
+    },
+    "embedding": {
+      "repo_id": "Qwen/Qwen3-Embedding-0.6B",
+      "revision": "97b0c614be4d77ee51c0cef4e5f07c00f9eb65b3",
+      "local_dir": "models/Qwen3-Embedding-0.6B",
+      "role": "semantic embedding smoke test"
+    }
+  },
+  "config": {
+    "version": "stage2-v3",
+    "sample_size": 1000,
+    "seed": 20261009,
+    "prompt_version": "blind-context-semantic-review-v3b",
+    "postprocess_version": "context-evidence-constraints-v3d",
+    "enable_thinking": false,
+    "quantized": false,
+    "generation_batch_size": 8,
+    "max_new_tokens": 224,
+    "max_input_tokens": 8192,
+    "embedding_batch_size": 16,
+    "topic_distance_threshold": 0.35,
+    "topic_min_feedbacks": 10,
+    "topic_linkage": "average",
+    "low_confidence_threshold": 0.65,
+    "semantic_review": true
+  },
+  "hardware": "RTX 5080 Laptop GPU, 16 GB",
+  "generation": "BF16, batch=8; 219 raw pilot decisions reused with hashes; 456 full decisions preserved across restart; 6901 decisions generated during final resume. CUDA temporary cache cleared each batch. Topic naming uses NF4.",
+  "validation": {
+    "unit_tests": "62 passed in 10.47 seconds",
+    "full_records": 1000,
+    "targeted_development_checks": 11,
+    "stage1_source_hashes_unchanged": 16,
+    "ui": "Topic support sorting, aspect filter, machine rationale expansion and real Markdown download checked; no real review events written.",
+    "download_report_sha256": "02244c879c24a95828503a1fbe5d6e37fdbe14d8ecbdec691a66373bd3f3ebda"
+  },
+  "sha256": {
+    "README.md": "06cecf4c423b20c4d7f769988c8f913fb0edd2b5a02bbd300268f2446b1b58ef",
+    "app/streamlit_app.py": "4d3583c52249d7741187e96fcc49a9373ddb3971e1f7795e1c75a115f1832880",
+    ".streamlit/config.toml": "ce8cb0f6978024ea5633c6ed857640195d002d5fd306e887965b89af159b2de0",
+    "configs/stage2-v3.json": "a15a96d0e6fa9475ee06631d91823cad8b3a0adc413b8eb35d8d67c61d995801",
+    "configs/models.json": "2ef3b2d36b3b8dd357cc608fa79fe6aa69393fb8144f46e60628aa66ca6e872f",
+    "requirements-stage2-lock.txt": "e87c2044deebf205a6690aaff5919176ff5f790720c2e95f1b5cab1ff59a96b4",
+    "src/echolens/workbench.py": "668cd7baa77dd51770b9fea19a1479cf50b457128428119e6eaa2590b530c437",
+    "src/echolens/extract.py": "258bc5352d8df5dffa4ed03a3bac6925e0e87e928616f176c2f33690ecb1e1c4",
+    "src/echolens/opinions_v2.py": "89ba063f71925c3892a27d28de37b04008ba9d6b332b33154891f96364ef11e8",
+    "src/echolens/quote_extraction.py": "0817c3e87e85f2a1ba4cc439d8c811cb1306bc5b8128e0034393a992fbd4df21",
+    "src/echolens/quote_extraction_v3.py": "6d7c24301452209c71eff771aabadbbc2ca2f55816bbead71ee8eaecd964871b",
+    "src/echolens/semantic_review.py": "a02f7dafc8382278db8b87c1972846eece47286cb8c796a339665cd4ba843801",
+    "src/echolens/topic_groups.py": "fd07771a2f9c575e6fc0862aedee10ad61c7704023bbb6daf721f7fa7951b513",
+    "src/echolens/context_worker.py": "ee4b2e5a0c7cb2e0a9a3428263d1281308dae4e2a1f2521784f10b6082f36e59",
+    "scripts/prepare_stage2_v3.py": "b0b619bcb51d6c6cf7687375ff2ca6afa80c4a00ef207b18d053532ba0f3efe5",
+    "scripts/analyze_stage2.py": "0ddf84af631ef36134f4ee3efe595f245fb52ed239687e1a25f9a24dd0b5f3f1",
+    "scripts/topics_stage2.py": "7f4d4911e9c23ab573ca6618f5b821d8905173f9a1c5bc0ce20a1f6c9a129915",
+    "scripts/run_workbench_job.py": "72ee80dbf6ab793134e264f24b78e6b9b1c7bc24d68875222347c6ab198e253c",
+    "scripts/verify_stage2_v3.py": "dafe05502f1c8df8eaa77ef74ee21bba0fceb23892058a5cb74fecf83625e19a",
+    "scripts/verify_stage2_revision.py": "1d0965df51474ea9a070250592b2c04e91167b998ff5720905576054405b8707",
+    "tests/test_stage2_v3.py": "ca2e45c99de798dad2e34ad21851caea7352515c026bfc82fa5ead504300a8c6",
+    "tests/test_stage2_revision.py": "6c843761ef26981638b2647e1a3eb60c05059a53e4d6b9d44643bf9af564339f",
+    "tests/test_workbench.py": "4b9e184344465ba52024f2a90022fbbeff34645ce48c25d3d84917675e0c29ff",
+    "docs/reports/stage2-v3-workflow.json": "0b7f7e6ea9fd86aa515a67098c682a272a8e32e9f1eb9341ca23e020812998aa",
+    "docs/reports/stage2-v3-pilot.json": "f9ed3a9f6fddaf4232f9d925f231fbf295ca4eafd0a001ba02bc51ddad425f49",
+    "docs/reports/stage2-v3-topic-probe.json": "dee486373a39d878f303eb58d4cd27870dacaa0defabe6225416c6dab741c8a4",
+    "docs/reports/stage2-v3-ai-audit.json": "781591acb5ce9958b601ed4f7aafeb875d5e3b11fccc4231a4ac4cd55c4a7af6",
+    "docs/reports/stage2-v3-review.md": "8a09c9216abb9980558eb4682c137796006045bd76a7deeb22bc8a881819f504",
+    "docs/development/stage-02.md": "d7f0d5a6522cff42ed80919a2a7c27e2bec56df216ad7a9b22768d68c6607aeb",
+    "docs/development/README.md": "1d566241955b9d5bd164bfc30fde029b43290b77e171cf824938d05263ad2414",
+    "docs/workbench-guide.md": "c52e461a17b9feb27a1d88c6383c4ba143a9290c2bcd4e3c2dc98eb43f7aee3c"
+  }
+}

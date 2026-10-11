@@ -1,0 +1,743 @@
+{
+  "revision": "975122a60065240124df62cb4d5dbfd19ed9ef2c",
+  "splits": {
+    "train": {
+      "rows": 36850,
+      "fields": [
+        "id",
+        "review",
+        "star",
+        "Location#Transportation",
+        "Location#Downtown",
+        "Location#Easy_to_find",
+        "Service#Queue",
+        "Service#Hospitality",
+        "Service#Parking",
+        "Service#Timely",
+        "Price#Level",
+        "Price#Cost_effective",
+        "Price#Discount",
+        "Ambience#Decoration",
+        "Ambience#Noise",
+        "Ambience#Space",
+        "Ambience#Sanitary",
+        "Food#Portion",
+        "Food#Taste",
+        "Food#Appearance",
+        "Food#Recommend"
+      ],
+      "unique_ids": 36850,
+      "stars": {
+        "5": 15770,
+        "4": 13362,
+        "2": 1258,
+        "3": 5241,
+        "1": 1219
+      },
+      "aspect_labels": {
+        "Location#Transportation": {
+          "1": 6605,
+          "-2": 29501,
+          "-1": 441,
+          "0": 303
+        },
+        "Location#Downtown": {
+          "1": 6001,
+          "-2": 30520,
+          "0": 148,
+          "-1": 181
+        },
+        "Location#Easy_to_find": {
+          "1": 5197,
+          "-2": 29773,
+          "-1": 1214,
+          "0": 666
+        },
+        "Service#Queue": {
+          "-2": 31306,
+          "-1": 1577,
+          "1": 1845,
+          "0": 2122
+        },
+        "Service#Hospitality": {
+          "1": 13526,
+          "-2": 15696,
+          "0": 4343,
+          "-1": 3285
+        },
+        "Service#Parking": {
+          "-2": 34374,
+          "1": 1457,
+          "-1": 516,
+          "0": 503
+        },
+        "Service#Timely": {
+          "-2": 31174,
+          "1": 2827,
+          "-1": 1994,
+          "0": 855
+        },
+        "Price#Level": {
+          "-2": 18628,
+          "0": 8291,
+          "1": 5337,
+          "-1": 4594
+        },
+        "Price#Cost_effective": {
+          "-2": 28651,
+          "1": 6236,
+          "0": 954,
+          "-1": 1009
+        },
+        "Price#Discount": {
+          "-2": 24970,
+          "1": 5398,
+          "0": 5862,
+          "-1": 620
+        },
+        "Ambience#Decoration": {
+          "1": 12521,
+          "-2": 20442,
+          "0": 3140,
+          "-1": 747
+        },
+        "Ambience#Noise": {
+          "-2": 26294,
+          "1": 7660,
+          "0": 1674,
+          "-1": 1222
+        },
+        "Ambience#Space": {
+          "-2": 23862,
+          "0": 3027,
+          "1": 8122,
+          "-1": 1839
+        },
+        "Ambience#Sanitary": {
+          "-2": 24509,
+          "1": 9169,
+          "0": 1650,
+          "-1": 1522
+        },
+        "Food#Portion": {
+          "-2": 20775,
+          "1": 9650,
+          "0": 3035,
+          "-1": 3390
+        },
+        "Food#Taste": {
+          "1": 19798,
+          "0": 13590,
+          "-2": 1978,
+          "-1": 1484
+        },
+        "Food#Appearance": {
+          "-2": 27459,
+          "1": 6936,
+          "-1": 1031,
+          "0": 1424
+        },
+        "Food#Recommend": {
+          "-2": 30017,
+          "1": 5436,
+          "-1": 759,
+          "0": 638
+        }
+      },
+      "length_chars": {
+        "min": 54,
+        "median": 271.0,
+        "p95": 614,
+        "max": 1000
+      },
+      "exact_duplicate_excess": 0,
+      "all_aspects_not_mentioned": 47,
+      "literal_escaped_newline_reviews": 10443
+    },
+    "dev": {
+      "rows": 4940,
+      "fields": [
+        "id",
+        "review",
+        "star",
+        "Location#Transportation",
+        "Location#Downtown",
+        "Location#Easy_to_find",
+        "Service#Queue",
+        "Service#Hospitality",
+        "Service#Parking",
+        "Service#Timely",
+        "Price#Level",
+        "Price#Cost_effective",
+        "Price#Discount",
+        "Ambience#Decoration",
+        "Ambience#Noise",
+        "Ambience#Space",
+        "Ambience#Sanitary",
+        "Food#Portion",
+        "Food#Taste",
+        "Food#Appearance",
+        "Food#Recommend"
+      ],
+      "unique_ids": 4940,
+      "stars": {
+        "4": 1734,
+        "3": 784,
+        "5": 2105,
+        "1": 151,
+        "2": 166
+      },
+      "aspect_labels": {
+        "Location#Transportation": {
+          "-2": 3964,
+          "1": 884,
+          "-1": 50,
+          "0": 42
+        },
+        "Location#Downtown": {
+          "1": 830,
+          "-2": 4061,
+          "0": 26,
+          "-1": 23
+        },
+        "Location#Easy_to_find": {
+          "1": 712,
+          "-2": 3945,
+          "-1": 177,
+          "0": 106
+        },
+        "Service#Queue": {
+          "0": 298,
+          "-1": 203,
+          "-2": 4206,
+          "1": 233
+        },
+        "Service#Hospitality": {
+          "-2": 2065,
+          "1": 1774,
+          "-1": 471,
+          "0": 630
+        },
+        "Service#Parking": {
+          "-2": 4617,
+          "0": 78,
+          "1": 177,
+          "-1": 68
+        },
+        "Service#Timely": {
+          "-2": 4186,
+          "-1": 253,
+          "1": 397,
+          "0": 104
+        },
+        "Price#Level": {
+          "-2": 2425,
+          "1": 794,
+          "-1": 632,
+          "0": 1089
+        },
+        "Price#Cost_effective": {
+          "-2": 3819,
+          "0": 158,
+          "-1": 111,
+          "1": 852
+        },
+        "Price#Discount": {
+          "0": 758,
+          "-2": 3329,
+          "1": 749,
+          "-1": 104
+        },
+        "Ambience#Decoration": {
+          "-2": 2703,
+          "-1": 101,
+          "1": 1725,
+          "0": 411
+        },
+        "Ambience#Noise": {
+          "-2": 3451,
+          "-1": 166,
+          "1": 1111,
+          "0": 212
+        },
+        "Ambience#Space": {
+          "-2": 3129,
+          "1": 1164,
+          "-1": 248,
+          "0": 399
+        },
+        "Ambience#Sanitary": {
+          "-2": 3169,
+          "1": 1327,
+          "-1": 221,
+          "0": 223
+        },
+        "Food#Portion": {
+          "-2": 2759,
+          "-1": 452,
+          "1": 1283,
+          "0": 446
+        },
+        "Food#Taste": {
+          "0": 1904,
+          "1": 2574,
+          "-2": 268,
+          "-1": 194
+        },
+        "Food#Appearance": {
+          "-2": 3681,
+          "1": 901,
+          "-1": 141,
+          "0": 217
+        },
+        "Food#Recommend": {
+          "0": 91,
+          "-2": 4042,
+          "1": 689,
+          "-1": 118
+        }
+      },
+      "length_chars": {
+        "min": 61,
+        "median": 273.0,
+        "p95": 615,
+        "max": 996
+      },
+      "exact_duplicate_excess": 0,
+      "all_aspects_not_mentioned": 2,
+      "literal_escaped_newline_reviews": 1464
+    },
+    "test": {
+      "rows": 4940,
+      "fields": [
+        "id",
+        "review",
+        "star",
+        "Location#Transportation",
+        "Location#Downtown",
+        "Location#Easy_to_find",
+        "Service#Queue",
+        "Service#Hospitality",
+        "Service#Parking",
+        "Service#Timely",
+        "Price#Level",
+        "Price#Cost_effective",
+        "Price#Discount",
+        "Ambience#Decoration",
+        "Ambience#Noise",
+        "Ambience#Space",
+        "Ambience#Sanitary",
+        "Food#Portion",
+        "Food#Taste",
+        "Food#Appearance",
+        "Food#Recommend"
+      ],
+      "unique_ids": 4940,
+      "stars": {
+        "4": 1867,
+        "5": 2018,
+        "3": 717,
+        "2": 173,
+        "1": 165
+      },
+      "aspect_labels": {
+        "Location#Transportation": {
+          "-2": 3962,
+          "1": 863,
+          "-1": 68,
+          "0": 47
+        },
+        "Location#Downtown": {
+          "-2": 4070,
+          "1": 824,
+          "-1": 24,
+          "0": 22
+        },
+        "Location#Easy_to_find": {
+          "-2": 3958,
+          "1": 682,
+          "-1": 186,
+          "0": 114
+        },
+        "Service#Queue": {
+          "-2": 4212,
+          "0": 258,
+          "1": 252,
+          "-1": 218
+        },
+        "Service#Hospitality": {
+          "-2": 2137,
+          "0": 598,
+          "1": 1729,
+          "-1": 476
+        },
+        "Service#Parking": {
+          "-2": 4614,
+          "1": 185,
+          "0": 69,
+          "-1": 72
+        },
+        "Service#Timely": {
+          "-2": 4180,
+          "-1": 261,
+          "1": 397,
+          "0": 102
+        },
+        "Price#Level": {
+          "-2": 2505,
+          "1": 726,
+          "0": 1087,
+          "-1": 622
+        },
+        "Price#Cost_effective": {
+          "-2": 3863,
+          "1": 818,
+          "0": 135,
+          "-1": 124
+        },
+        "Price#Discount": {
+          "-2": 3384,
+          "1": 703,
+          "0": 761,
+          "-1": 92
+        },
+        "Ambience#Decoration": {
+          "0": 399,
+          "1": 1630,
+          "-2": 2805,
+          "-1": 106
+        },
+        "Ambience#Noise": {
+          "-2": 3497,
+          "1": 1039,
+          "0": 242,
+          "-1": 162
+        },
+        "Ambience#Space": {
+          "-2": 3197,
+          "1": 1044,
+          "0": 421,
+          "-1": 278
+        },
+        "Ambience#Sanitary": {
+          "-2": 3307,
+          "1": 1198,
+          "-1": 222,
+          "0": 213
+        },
+        "Food#Portion": {
+          "1": 1264,
+          "-2": 2842,
+          "0": 373,
+          "-1": 461
+        },
+        "Food#Taste": {
+          "1": 2556,
+          "-2": 261,
+          "0": 1916,
+          "-1": 207
+        },
+        "Food#Appearance": {
+          "-2": 3685,
+          "1": 920,
+          "0": 192,
+          "-1": 143
+        },
+        "Food#Recommend": {
+          "-2": 4079,
+          "1": 693,
+          "0": 77,
+          "-1": 91
+        }
+      },
+      "length_chars": {
+        "min": 57,
+        "median": 267.0,
+        "p95": 614,
+        "max": 999
+      },
+      "exact_duplicate_excess": 0,
+      "all_aspects_not_mentioned": 9,
+      "literal_escaped_newline_reviews": 1388
+    }
+  },
+  "limitations": [
+    "No time/product/author IDs",
+    "Whitespace normalization is not semantic near-duplicate detection"
+  ],
+  "cross_split_whitespace_duplicate_groups": [
+    [
+      {
+        "split": "train",
+        "id": "25807"
+      },
+      {
+        "split": "test",
+        "id": "25806"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "id": "8655"
+      },
+      {
+        "split": "dev",
+        "id": "8654"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "id": "9057"
+      },
+      {
+        "split": "test",
+        "id": "9056"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "id": "37604"
+      },
+      {
+        "split": "test",
+        "id": "37605"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "id": "20523"
+      },
+      {
+        "split": "dev",
+        "id": "20522"
+      },
+      {
+        "split": "test",
+        "id": "20524"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "id": "35664"
+      },
+      {
+        "split": "test",
+        "id": "35663"
+      }
+    ]
+  ],
+  "within_or_cross_split_whitespace_duplicate_groups": 15,
+  "all_unique_ids": 46730,
+  "exploration": {
+    "size": 200,
+    "seed": 20261007,
+    "strategy": "40 per star; train only; excludes dev/test normalized duplicates",
+    "sample_ids": [
+      "14093",
+      "15645",
+      "2694",
+      "3814",
+      "29911",
+      "44452",
+      "2233",
+      "33804",
+      "14159",
+      "14067",
+      "21205",
+      "38086",
+      "39061",
+      "28605",
+      "437",
+      "38748",
+      "18721",
+      "40509",
+      "30661",
+      "6202",
+      "15729",
+      "41908",
+      "18816",
+      "38781",
+      "10931",
+      "21799",
+      "17154",
+      "29305",
+      "10046",
+      "287",
+      "30641",
+      "28598",
+      "42301",
+      "19528",
+      "16846",
+      "19452",
+      "19385",
+      "16137",
+      "41749",
+      "17002",
+      "13117",
+      "7106",
+      "45901",
+      "7272",
+      "6465",
+      "33583",
+      "29959",
+      "24785",
+      "22432",
+      "25104",
+      "2828",
+      "17621",
+      "45676",
+      "17444",
+      "23403",
+      "39462",
+      "12685",
+      "12629",
+      "34590",
+      "42409",
+      "39467",
+      "45999",
+      "3741",
+      "33660",
+      "39048",
+      "10988",
+      "34500",
+      "8006",
+      "30619",
+      "22766",
+      "28882",
+      "28187",
+      "36228",
+      "20079",
+      "15117",
+      "36511",
+      "24169",
+      "13059",
+      "40256",
+      "5262",
+      "35543",
+      "45538",
+      "10129",
+      "5013",
+      "13764",
+      "23909",
+      "45275",
+      "2572",
+      "8283",
+      "14555",
+      "41443",
+      "23823",
+      "32789",
+      "27047",
+      "3645",
+      "4565",
+      "46366",
+      "25361",
+      "3068",
+      "33412",
+      "23238",
+      "2415",
+      "27618",
+      "39398",
+      "37037",
+      "18944",
+      "33260",
+      "1320",
+      "18769",
+      "12182",
+      "27326",
+      "19459",
+      "17293",
+      "30800",
+      "11086",
+      "23210",
+      "5636",
+      "23620",
+      "20355",
+      "31830",
+      "6188",
+      "43146",
+      "11026",
+      "12014",
+      "31953",
+      "23667",
+      "20463",
+      "39503",
+      "8308",
+      "36083",
+      "33361",
+      "44106",
+      "4980",
+      "4170",
+      "23984",
+      "3061",
+      "22605",
+      "39526",
+      "16158",
+      "30434",
+      "19065",
+      "20760",
+      "4206",
+      "40935",
+      "23752",
+      "31768",
+      "36243",
+      "37330",
+      "36301",
+      "5803",
+      "39213",
+      "34370",
+      "39659",
+      "42945",
+      "21191",
+      "42411",
+      "19526",
+      "2842",
+      "2727",
+      "1187",
+      "14632",
+      "4400",
+      "29933",
+      "42351",
+      "6129",
+      "29359",
+      "35463",
+      "31348",
+      "12494",
+      "31984",
+      "26265",
+      "29048",
+      "17315",
+      "30206",
+      "2655",
+      "22340",
+      "33163",
+      "23272",
+      "33293",
+      "13155",
+      "42596",
+      "15753",
+      "13012",
+      "2826",
+      "33382",
+      "21650",
+      "29946",
+      "37488",
+      "27637",
+      "27342",
+      "29479",
+      "32069",
+      "16575",
+      "21838",
+      "1888",
+      "29762",
+      "40076",
+      "5182",
+      "44598",
+      "22221"
+    ]
+  }
+}

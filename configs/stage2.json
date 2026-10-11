@@ -1,0 +1,14 @@
+{
+  "version": "stage2-v1",
+  "sample_size": 1000,
+  "seed": 20261009,
+  "prompt_version": "opinion-sentence-id-v1",
+  "generation_batch_size": 4,
+  "max_new_tokens": 256,
+  "max_opinions": 3,
+  "max_input_tokens": 4096,
+  "embedding_batch_size": 16,
+  "topic_min_cluster_size": 8,
+  "topic_min_samples": 4,
+  "low_confidence_threshold": 0.65
+}

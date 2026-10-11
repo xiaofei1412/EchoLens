@@ -1,0 +1,37 @@
+{
+  "records": 50,
+  "seed": 2026101201,
+  "length_strata": {
+    "short": 15,
+    "medium": 20,
+    "long": 15
+  },
+  "first10_strata": {
+    "short": 3,
+    "medium": 4,
+    "long": 3
+  },
+  "source_split": "test",
+  "eligible_records": 4896,
+  "blocked_records": 41791,
+  "overlap_record_ids": 0,
+  "overlap_duplicate_groups": 0,
+  "overlap_normalized_texts": 0,
+  "human_reviews": 0,
+  "human_gold": false,
+  "training_ready": false,
+  "model": {
+    "repo_id": "Qwen/Qwen3.5-4B",
+    "revision": "851bf6e806efd8d0a36b00ddf55e13ccb7b8cd0a",
+    "local_dir": "models/Qwen3.5-4B",
+    "role": "text-only extraction and QLoRA probe"
+  },
+  "usage": "independent paired human review; never train, tune prompts or select checkpoints on this packet",
+  "limitations": [
+    "ASAP test was used for frozen stage1 classification evaluation, not training/tuning",
+    "Project-level exclusion; cannot guarantee unseen in foundation-model pretraining",
+    "Existing MinHash groups may miss semantic paraphrases; restaurant domain only",
+    "Human pairwise review does not produce full gold opinion spans or human F1"
+  ],
+  "manifest_sha256": "380c7f903e8a13f31d7b0bad2b4f67f670e36458833b4dcff4988122cd2ac574"
+}

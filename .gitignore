@@ -1,0 +1,16 @@
+.venv/
+.venv-stage1/
+.venv-ui/
+.venv-release/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.env
+.env.*
+data/
+!docs/data/
+!docs/data/*.md
+models/
+artifacts/
+*.log
+*.egg-info/

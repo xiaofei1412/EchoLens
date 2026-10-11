@@ -1,0 +1,32 @@
+{
+  "date": "2026-10-09",
+  "reviewer": "AI qualitative reading, not human gold",
+  "selection": "32 preselected clean-train records disjoint from 32 development pilot records",
+  "records_read": 32,
+  "records_with_review_concerns": 32,
+  "issue_record_counts": {
+    "aspect": 21,
+    "sentiment": 16,
+    "evidence_context": 5,
+    "target": 14,
+    "coverage": 18,
+    "attribution": 2,
+    "duplicate": 4
+  },
+  "topic_observations": {
+    "topics": 687,
+    "outlier_opinions": 2918,
+    "outlier_fraction": 0.4155511250356024,
+    "largest_topic_opinions": 104,
+    "three_opinion_topics": 250,
+    "duplicate_name_groups": 34,
+    "additional_duplicate_names": 85
+  },
+  "limitations": [
+    "AI concerns are qualitative suggestions, not adjudicated errors or a gold accuracy estimate",
+    "Issue categories overlap; counts are records, not opinions",
+    "Aspect partitions do not repair incorrect aspect predictions",
+    "Full-topic semantic acceptance has not passed; narrow groups and overlapping names remain",
+    "No prompt or clustering parameter tuned on this additional audit sample"
+  ]
+}

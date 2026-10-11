@@ -1,0 +1,35 @@
+{
+  "source": "user-provided Gemini web output; model/config user-reported",
+  "model": "Gemini 3.8 Flash",
+  "thinking": "扩展",
+  "records": 5,
+  "opinions": 53,
+  "coverage_entries": 124,
+  "raw_schema_passed": false,
+  "empty_array_repairs": 36,
+  "normalized_structural_checks_passed": true,
+  "overlap_warnings": 0,
+  "raw_response_sha256": "e37f508f92f1a306ee00b9844f454d4f890a667ab9a05eeb87f725592c723b36",
+  "coverage_compact_json_character_share": 0.4761,
+  "known_development_checks": {
+    "35776_component_taste_recovered": true,
+    "34244_drink_rule_not_repeated": true,
+    "46767_opposite_object_boundary_separated": true,
+    "27197_no_service_attitude_inference": true,
+    "16368_manual_skill_praise_preserved": true
+  },
+  "checks_are_not_accuracy": true,
+  "semantic_review_origin": "AI reading, not human gold",
+  "comparison_confounded_by_prompt_and_workflow": true,
+  "human_reference_unchanged": true,
+  "remaining_issue_categories": [
+    "aspect mapping",
+    "quantity mistaken for sentiment",
+    "insufficient quote context",
+    "unexperienced option scope",
+    "taxonomy gaps"
+  ],
+  "training_ready": false,
+  "tests_passed": 16,
+  "test_seconds": 0.15
+}

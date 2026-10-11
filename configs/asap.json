@@ -1,0 +1,10 @@
+{
+  "repository": "Meituan-Dianping/asap",
+  "revision": "975122a60065240124df62cb4d5dbfd19ed9ef2c",
+  "license": "Apache-2.0",
+  "files": ["README.md", "LICENSE", "data/train.csv", "data/dev.csv", "data/test.csv"],
+  "expected_rows": {"train": 36850, "dev": 4940, "test": 4940},
+  "label_values": {"-2": "not_mentioned", "-1": "negative", "0": "neutral", "1": "positive"},
+  "sample_seed": 20261007,
+  "sample_size": 200
+}

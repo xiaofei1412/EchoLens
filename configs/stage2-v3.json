@@ -1,0 +1,18 @@
+{
+  "version": "stage2-v3",
+  "sample_size": 1000,
+  "seed": 20261009,
+  "prompt_version": "blind-context-semantic-review-v3b",
+  "postprocess_version": "context-evidence-constraints-v3d",
+  "enable_thinking": false,
+  "quantized": false,
+  "generation_batch_size": 8,
+  "max_new_tokens": 224,
+  "max_input_tokens": 8192,
+  "embedding_batch_size": 16,
+  "topic_distance_threshold": 0.35,
+  "topic_min_feedbacks": 10,
+  "topic_linkage": "average",
+  "low_confidence_threshold": 0.65,
+  "semantic_review": true
+}

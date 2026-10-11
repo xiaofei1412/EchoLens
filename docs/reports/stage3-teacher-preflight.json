@@ -1,0 +1,11 @@
+{
+  "tests_passed": 17,
+  "tests_seconds": 1.81,
+  "external_model_run": false,
+  "source_packet_unchanged": true,
+  "human_reference_unchanged": true,
+  "coverage_spans_exact": true,
+  "inputs_contain_no_human_or_machine_answers": true,
+  "known_case_records": 5,
+  "teacher_manifest_sha256": "3c8ecc33ed2b5a54ff313de5d3ef00b3eb4c248db180dfd337abc971b864f662"
+}

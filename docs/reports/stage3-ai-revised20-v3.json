@@ -1,0 +1,51 @@
+{
+  "records": 20,
+  "records_with_opinion_changes": 19,
+  "original_opinions": 285,
+  "revised_opinions": 272,
+  "batches": [
+    {
+      "batch": "batch-0001",
+      "opinions": 68,
+      "warnings": 0
+    },
+    {
+      "batch": "batch-0002",
+      "opinions": 85,
+      "warnings": 0
+    },
+    {
+      "batch": "batch-0003",
+      "opinions": 72,
+      "warnings": 0
+    },
+    {
+      "batch": "batch-0004",
+      "opinions": 47,
+      "warnings": 0
+    }
+  ],
+  "actions": {
+    "edit": 82,
+    "add": 2,
+    "merge": 13,
+    "remove": 3,
+    "review_questions": 18
+  },
+  "unknown_aspects": 2,
+  "unknown_sentiments": 2,
+  "records_with_questions": 3,
+  "human_gold": false,
+  "training_ready": false,
+  "origin": "teacher_with_ai_revision",
+  "note": "Label migration affects more records than the prior 12 priority candidates; fewer unknowns/opinions is not an accuracy result",
+  "old_files_unchanged": true,
+  "final_outputs": {
+    "batch-0001": "outputs/batch-0001.ai-v3.json",
+    "batch-0002": "outputs/batch-0002.ai-v3.r2.json",
+    "batch-0003": "outputs/batch-0003.ai-v3.json",
+    "batch-0004": "outputs/batch-0004.ai-v3.json"
+  },
+  "followup_actions": 2,
+  "followup_note": "First AI draft preserved; trimmed one overlapping evidence and restored conditional taste opinion mistakenly removed with eating-method context"
+}

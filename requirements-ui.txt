@@ -1,0 +1,8 @@
+# Lightweight UI and local data handling; no GPU packages.
+streamlit==1.64.0
+pandas==3.0.6
+numpy==2.3.5
+duckdb==1.4.4
+scikit-learn==1.8.0
+scipy==1.17.0
+psutil==7.2.2

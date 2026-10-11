@@ -1,0 +1,33 @@
+{
+  "packet_sha256": "5f7db760cce2a72d24fe41665fe5a252a53b376abc05477bf9474e872eae1a22",
+  "records": 20,
+  "seed": 20261009,
+  "selection": {
+    "seeded_random": 10,
+    "known_difficulty": 10
+  },
+  "split": "clean-train only",
+  "machine_suggested_opinions": 137,
+  "human_completed_at_creation": 0,
+  "usage": "pilot_train_only; not evaluation or training-ready",
+  "guideline_sha256": "24af963ff07f243e77c5b94678a8aa98171237a626f9d34e266d9546ba296ff7",
+  "source": {
+    "dataset": "asap-demo-1000-v3",
+    "records_sha256": "349d685d402c526dc819d95ffc5a326f064d340000e1fd986409a9b63d824674",
+    "run_sha256": "bacedc0b03bb39b539e6505ba5c29353edc2be24fc962f78e35a517d63969047",
+    "models": {
+      "generation": {
+        "repo_id": "Qwen/Qwen3.5-4B",
+        "revision": "851bf6e806efd8d0a36b00ddf55e13ccb7b8cd0a",
+        "local_dir": "models/Qwen3.5-4B",
+        "role": "text-only extraction and QLoRA probe"
+      },
+      "embedding": {
+        "repo_id": "Qwen/Qwen3-Embedding-0.6B",
+        "revision": "97b0c614be4d77ee51c0cef4e5f07c00f9eb65b3",
+        "local_dir": "models/Qwen3-Embedding-0.6B",
+        "role": "semantic embedding smoke test"
+      }
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "records": 100,
+  "batches": 100,
+  "batch_size": 1,
+  "parent_batches": "0021-0040",
+  "source_split": "clean-train",
+  "prior100_record_and_group_overlap": 0,
+  "duplicate_groups": 100,
+  "unchanged_original_text_and_spans": true,
+  "aspect_count": 28,
+  "length_strata": {
+    "1-200": 9,
+    "201-500": 58,
+    "501+": 33
+  },
+  "prepared_only": true,
+  "model_calls": 0,
+  "human_gold": false,
+  "training_ready": false,
+  "remaining_after_this_wave": 700,
+  "manifest_sha256": "031e6f8a1c52a8580bcd55db7a34991b348eedace63ad9dbd851d15ae42feb50"
+}

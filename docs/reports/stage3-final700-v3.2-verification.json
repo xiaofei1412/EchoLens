@@ -1,0 +1,11 @@
+{
+  "idempotent_rerun_verified": true,
+  "frozen_task_valid": true,
+  "pending_batches": 700,
+  "completed_batches": 0,
+  "stale_attempts": 0,
+  "exact_span_positions": true,
+  "prior_annotation_files_unchanged": 836,
+  "rules_labels_unchanged": true,
+  "annotation_model_calls": 0
+}

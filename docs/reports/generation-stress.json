@@ -1,0 +1,86 @@
+{
+  "started_at_utc": "2026-10-07T13:17:46.331489+00:00",
+  "model": {
+    "repo_id": "Qwen/Qwen3.5-4B",
+    "revision": "851bf6e806efd8d0a36b00ddf55e13ccb7b8cd0a",
+    "local_dir": "models/Qwen3.5-4B",
+    "role": "text-only extraction and QLoRA probe"
+  },
+  "purpose": "infrastructure only; synthetic examples; no held-out quality claim",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "python": "3.14.6",
+  "versions": {
+    "torch": "2.10.0+cu128",
+    "transformers": "5.19.0",
+    "peft": "0.19.1",
+    "bitsandbytes": "0.50.2",
+    "accelerate": "1.13.0"
+  },
+  "gpu": "NVIDIA GeForce RTX 5080 Laptop GPU",
+  "cuda": "12.8",
+  "steps": 3,
+  "nf4_kernel_finite_gradient": true,
+  "model_quantized_layers": 248,
+  "base_inference": [
+    {
+      "text": "味道很好，但是上菜太慢。",
+      "output": "{\"opinions\":[{\"aspect\":\"Food#Taste\",\"sentiment\":\"positive\",\"intent\":\"praise\",\"evidence\":\"味道很好\"},{\"aspect\":\"Service#Timely\",\"sentiment\":\"negative\",\"intent\":\"complaint\",\"evidence\":\"上菜太慢\"}]}\n",
+      "tokens": 56,
+      "seconds": 3.531763899838552,
+      "schema_and_substring_valid": true,
+      "validation_error": null
+    },
+    {
+      "text": "服务员态度很好。",
+      "output": "{\"opinions\":[{\"aspect\":\"Service#Hospitality\",\"sentiment\":\"positive\",\"intent\":\"praise\",\"evidence\":\"服务员态度很好\"}]}\n",
+      "tokens": 32,
+      "seconds": 1.8008115999400616,
+      "schema_and_substring_valid": true,
+      "validation_error": null
+    },
+    {
+      "text": "店里太吵，聊天都听不清。",
+      "output": "{\"opinions\":[{\"aspect\":\"Ambience#Noise\",\"sentiment\":\"negative\",\"intent\":\"complaint\",\"evidence\":\"店里太吵\"}]}\n",
+      "tokens": 32,
+      "seconds": 1.8774047000333667,
+      "schema_and_substring_valid": true,
+      "validation_error": null
+    }
+  ],
+  "inference_peak_allocated_gib": 3.0551795959472656,
+  "lora_target_modules": "all-linear",
+  "lora_scope": "all text linear layers",
+  "trainable_parameters": 16232448,
+  "train_sequence_lengths": [
+    1024,
+    1024,
+    1024,
+    1024,
+    1024,
+    1024,
+    1024,
+    1024
+  ],
+  "training_config": {
+    "micro_batch": 1,
+    "gradient_accumulation": 1,
+    "learning_rate": 0.0001,
+    "rank": 8,
+    "max_length": 1024,
+    "supervision": "assistant completion only",
+    "data": "8 synthetic infrastructure examples",
+    "synthetic_padding_length": 1024
+  },
+  "losses": [
+    0.07250639796257019,
+    0.021528519690036774,
+    0.01332829799503088
+  ],
+  "training_seconds": 4.06619150005281,
+  "training_peak_allocated_gib": 7.517519950866699,
+  "adapter_changed": true,
+  "adapter_weights_equal_after_reload": true,
+  "reload_logits_max_abs_error": 0.0,
+  "reload_logits_close": true,
+  "completed_at_utc": "2026-10-07T13:18:11.466130+00:00"
+}

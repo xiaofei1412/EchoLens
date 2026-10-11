@@ -1,0 +1,8 @@
+{"text":"味道很好，但是上菜太慢。","opinions":[{"aspect":"Food#Taste","sentiment":"positive","intent":"praise","evidence":"味道很好"},{"aspect":"Service#Timely","sentiment":"negative","intent":"complaint","evidence":"上菜太慢"}]}
+{"text":"服务员态度很好。","opinions":[{"aspect":"Service#Hospitality","sentiment":"positive","intent":"praise","evidence":"服务员态度很好"}]}
+{"text":"店里太吵，聊天都听不清。","opinions":[{"aspect":"Ambience#Noise","sentiment":"negative","intent":"complaint","evidence":"店里太吵"}]}
+{"text":"这个价格有点贵。","opinions":[{"aspect":"Price#Level","sentiment":"negative","intent":"complaint","evidence":"价格有点贵"}]}
+{"text":"份量很足，两个人都吃饱了。","opinions":[{"aspect":"Food#Portion","sentiment":"positive","intent":"praise","evidence":"份量很足"}]}
+{"text":"希望排队时能告诉我还要等多久。","opinions":[{"aspect":"Service#Queue","sentiment":"neutral","intent":"improvement_request","evidence":"希望排队时能告诉我还要等多久"}]}
+{"text":"桌子上还有油污。","opinions":[{"aspect":"Ambience#Sanitary","sentiment":"negative","intent":"complaint","evidence":"桌子上还有油污"}]}
+{"text":"没有觉得难吃。","opinions":[{"aspect":"Food#Taste","sentiment":"positive","intent":"statement","evidence":"没有觉得难吃"}]}

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="380" viewBox="0 0 1200 380" role="img" aria-labelledby="title desc">
+<title id="title">EchoLens · 从餐饮评价到可追溯的意见</title><desc id="desc">本地处理，提取对象、方面、情感和原文证据，人工复核后导出报告。</desc>
+<rect width="1200" height="380" rx="24" fill="#102f32"/>
+<circle cx="1020" cy="90" r="230" fill="#194447"/><circle cx="1090" cy="20" r="156" fill="none" stroke="#3a6664"/>
+<g fill="none" stroke="#bddd97" stroke-width="5"><circle cx="84" cy="86" r="24"/><circle cx="84" cy="86" r="10"/><path d="m102 104 16 16"/></g>
+<g font-family="Segoe UI,Microsoft YaHei,sans-serif"><text x="132" y="104" font-size="46" font-weight="700" fill="#fff">EchoLens 回声</text>
+<text x="60" y="180" font-size="34" fill="#f3f1e9">听见反馈，追溯原文。</text><text x="60" y="222" font-size="19" fill="#c2d4d0">中文餐饮评价 · 本地 NLP 工作台 · QLoRA 微调</text>
+<g fill="#f5f6ef" font-size="17"><rect x="60" y="272" width="165" height="46" rx="23" fill="#2b5050"/><text x="93" y="302">对象与方面</text><rect x="240" y="272" width="165" height="46" rx="23" fill="#2b5050"/><text x="273" y="302">情感与证据</text><rect x="420" y="272" width="165" height="46" rx="23" fill="#2b5050"/><text x="453" y="302">人工可复核</text></g>
+<rect x="750" y="155" width="372" height="170" rx="16" fill="#f2f4ed"/><text x="777" y="195" font-size="15" fill="#436265">合成示例 · 原文证据</text><text x="777" y="235" font-size="22" fill="#183d3e">“味道不错，但上菜太慢。”</text><text x="777" y="278" font-size="16" fill="#276c59">口味 / 正面</text><text x="960" y="278" font-size="16" fill="#9b4937">上菜速度 / 负面</text></g></svg>

@@ -1,0 +1,20 @@
+{
+  "records": 900,
+  "opinions": 12744,
+  "train": 810,
+  "dev": 90,
+  "group_overlap": 0,
+  "seed": 20261011,
+  "token_lengths": {
+    "min": 552,
+    "median": 1263,
+    "p95": 2191,
+    "max": 3101
+  },
+  "over_4096_train": 0,
+  "over_4096_dev": 0,
+  "max_answer_tokens": 2028,
+  "human_gold": false,
+  "teacher_supervised_experiment": true,
+  "semantic_edits": 0
+}

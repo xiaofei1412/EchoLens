@@ -1,0 +1,91 @@
+{
+  "date": "2026-10-09",
+  "review_origin": "AI semantic reading of all 20 records; not human gold",
+  "declared_model": "gpt-5.6-sol",
+  "model_identity_verified": false,
+  "thinking": "unknown",
+  "selected_versions": {
+    "batch-0001": 1,
+    "batch-0002": 3,
+    "batch-0003": 3,
+    "batch-0004": 3
+  },
+  "batches": [
+    {
+      "batch": "batch-0001",
+      "attempt": 1,
+      "records": 5,
+      "opinions": 67,
+      "warnings": 0,
+      "review_question_records": 4,
+      "unknown_aspects": 10,
+      "human_gold": false,
+      "training_ready": false
+    },
+    {
+      "batch": "batch-0002",
+      "attempt": 3,
+      "records": 5,
+      "opinions": 91,
+      "warnings": 0,
+      "review_question_records": 5,
+      "unknown_aspects": 11,
+      "human_gold": false,
+      "training_ready": false
+    },
+    {
+      "batch": "batch-0003",
+      "attempt": 3,
+      "records": 5,
+      "opinions": 77,
+      "warnings": 0,
+      "review_question_records": 5,
+      "unknown_aspects": 11,
+      "human_gold": false,
+      "training_ready": false
+    },
+    {
+      "batch": "batch-0004",
+      "attempt": 3,
+      "records": 5,
+      "opinions": 50,
+      "warnings": 0,
+      "review_question_records": 4,
+      "unknown_aspects": 10,
+      "human_gold": false,
+      "training_ready": false
+    }
+  ],
+  "records": 20,
+  "opinions": 285,
+  "coverage_spans": 715,
+  "records_with_model_questions": 18,
+  "unknown_opinions": 42,
+  "unknown_fraction": 0.14736842105263157,
+  "unknown_ai_groups": {
+    "existing_aspect_or_split_needed": 3,
+    "quality_freshness_gap": 7,
+    "service_process_gap": 4,
+    "selection_variety_gap": 5,
+    "facilities_environment_gap": 4,
+    "overall_experience_recommendation_revisit_gap": 15,
+    "staff_skill_gap": 2,
+    "task_relevance_review": 2
+  },
+  "ai_dispositions": {
+    "boundary_review": 7,
+    "targeted_fix": 12,
+    "no_priority_issue_found": 1
+  },
+  "whole_record_single_span_count": 2,
+  "structural_checks_passed": true,
+  "structural_warnings": 0,
+  "stale_attempts": [],
+  "human_gold": false,
+  "training_ready": false,
+  "accuracy_established": false,
+  "decision": "Keep teacher model; targeted corrections and boundary decisions before expanding. Then 80 new records, review, then remaining 800.",
+  "comparison_limit": "Different inputs versus prior 10; no measured model/rule accuracy gain or causal length effect",
+  "frozen_manifest_sha256": "f82b975a4da7acd52bca599700b3903bc4afa0ebb8c1be7e3dcfff5e623eb764",
+  "frozen_rules_sha256": "b86d4f59c386ae8fef53fdd9fdc2731e4951616046969fcc2346f6e815ee12a5"
+}

@@ -1,0 +1,35 @@
+{
+  "provenance": {
+    "python": "3.14.6",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "versions": {
+      "torch": "2.10.0+cu128",
+      "transformers": "5.19.0",
+      "numpy": "2.3.5",
+      "scipy": "1.17.0",
+      "scikit-learn": "1.8.0",
+      "duckdb": "1.4.4",
+      "datasketch": "1.9.0"
+    },
+    "snapshot_sha256": "1bf34cd89d25c3b1280f92dad459288c43f0555b8f486364f0df46acebb68a63",
+    "config_sha256": "808855b20a1a47151f23f3bee2ff95ab5a0d5904d2c5862d351aa5c7b03b30be"
+  },
+  "models": {
+    "tfidf-official": {
+      "model_sha256": "cbeef5a3028b0ee5cf75c1bc1f9e5c29fcc7fee3530e76d166e309f5acf08a6a",
+      "selection_sha256": "46dff703e2f008467f408a752726585ef3e4d04f6f09e767acdd7b0897f345db"
+    },
+    "tfidf-clean": {
+      "model_sha256": "9ea2d8ada9479c2e6fd0c856f24208510784406b11d9adea2a0355e863ebaa82",
+      "selection_sha256": "129f3c36bb270e7bf1051ba9d55663b2a24d5129ec82cbe424a6826a7458efef"
+    },
+    "encoder-official": {
+      "model_sha256": "cb5752e5d3c41d88bc8cedb8a075ebcf71eada7d25a522980ee5d33143459c33",
+      "selection_sha256": "c108ce3257549f4a56ba79de98c2f02dcfec36825c63b0d06646fecad8ac4be7"
+    },
+    "encoder-clean": {
+      "model_sha256": "de6b70bfdee2e372c3bdabebe7e113632ed89e9ae14953bc5f2a949dc4dbf3a4",
+      "selection_sha256": "0e2e4869e1f371f8d7044f92d8c73144aafdb2386297de248685906e15970a17"
+    }
+  }
+}

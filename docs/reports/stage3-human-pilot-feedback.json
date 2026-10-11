@@ -1,0 +1,15 @@
+{
+  "records_saved": 20,
+  "statuses": {
+    "completed": 19,
+    "draft": 1
+  },
+  "machine_opinions_initial": 137,
+  "opinions_current_all_statuses": 141,
+  "records_with_edits": 14,
+  "teacher_probe_records": 5,
+  "external_model_run": false,
+  "packet_sha256": "5f7db760cce2a72d24fe41665fe5a252a53b376abc05477bf9474e872eae1a22",
+  "teacher_manifest_sha256": "3c8ecc33ed2b5a54ff313de5d3ef00b3eb4c248db180dfd337abc971b864f662",
+  "note": "Human pilot edits, not finalized gold; known-case probe cannot estimate generalization"
+}

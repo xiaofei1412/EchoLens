@@ -1,0 +1,120 @@
+{
+  "scope": "train-only development comparison; not held-out or human-gold accuracy",
+  "status": "partial",
+  "same_input_snapshot": true,
+  "unchanged_classifier": true,
+  "baseline_files_unchanged": true,
+  "reused_raw_windows": 216,
+  "user_reported_development_case_checks": {
+    "38689_decoration_negative": true,
+    "6479_table_space_negative": true,
+    "44572_parking_negative": true,
+    "32524_parking_negative": true,
+    "5365_linked_praise_has_specific_dish": true,
+    "5365_pineapple_ingredients_not_portion": true
+  },
+  "total_windows": 928,
+  "v1_on_same_records": {
+    "attempted": 32,
+    "records_with_accepted_extraction": 30,
+    "opinions": 87,
+    "records_with_opinions": 30,
+    "valid_empty_records": 0,
+    "fully_valid_records": 30,
+    "partial_records": 0,
+    "rejected_opinion_errors": {},
+    "failures": {
+      "意见数量超过上限": 2
+    },
+    "target_present": 0,
+    "grounding_methods": {
+      "sentence_id": 87
+    },
+    "scope_uncertain": 0,
+    "merged_opinions": 0
+  },
+  "v2": {
+    "attempted": 32,
+    "records_with_accepted_extraction": 32,
+    "opinions": 230,
+    "records_with_opinions": 32,
+    "valid_empty_records": 0,
+    "fully_valid_records": 2,
+    "partial_records": 30,
+    "rejected_opinion_errors": {
+      "方面、情感或意图无效": 32,
+      "引用不是可唯一对齐的原文": 12,
+      "意见数量超过提示上限，已逐条校验并保留，需复核": 14,
+      "引用多处出现，无法唯一定位": 1,
+      "原文意见字段无效": 3,
+      "评价对象字段无效": 2,
+      "Unterminated string starting at: line 1 column 152 (char 151)": 1
+    },
+    "failures": {},
+    "target_present": 174,
+    "grounding_methods": {
+      "exact": 213,
+      "whitespace_restored": 15,
+      "ellipsis_restored": 2
+    },
+    "scope_uncertain": 0,
+    "merged_opinions": 4
+  },
+  "pilot": {
+    "attempted": 32,
+    "records_with_accepted_extraction": 32,
+    "opinions": 230,
+    "records_with_opinions": 32,
+    "valid_empty_records": 0,
+    "fully_valid_records": 2,
+    "partial_records": 30,
+    "rejected_opinion_errors": {
+      "方面、情感或意图无效": 32,
+      "意见数量超过提示上限，已逐条校验并保留，需复核": 14,
+      "原文意见字段无效": 3,
+      "引用不是可唯一对齐的原文": 12,
+      "评价对象字段无效": 2,
+      "引用多处出现，无法唯一定位": 1,
+      "Unterminated string starting at: line 1 column 152 (char 151)": 1
+    },
+    "failures": {},
+    "target_present": 174,
+    "grounding_methods": {
+      "exact": 213,
+      "whitespace_restored": 15,
+      "ellipsis_restored": 2
+    },
+    "scope_uncertain": 0,
+    "merged_opinions": 4
+  },
+  "additional_audit": {
+    "attempted": 0,
+    "records_with_accepted_extraction": 0,
+    "opinions": 0,
+    "records_with_opinions": 0,
+    "valid_empty_records": 0,
+    "fully_valid_records": 0,
+    "partial_records": 0,
+    "rejected_opinion_errors": {},
+    "failures": {},
+    "target_present": 0,
+    "grounding_methods": {},
+    "scope_uncertain": 0,
+    "merged_opinions": 0
+  },
+  "topics": 0,
+  "topic_sizes": {},
+  "topic_aspects": {},
+  "topic_pipeline_seconds": null,
+  "no_cross_predicted_aspect_topics": true,
+  "distinct_record_representatives": true,
+  "elapsed_generation_batch_seconds": 121.89293699990958,
+  "limitations": [
+    "Aspect partitions reflect predictions, not proof of semantic correctness",
+    "Targets and quoted spans are checked for existence, not entailment",
+    "Topic names and opinion attribution need human review",
+    "New food labels do not modify the trained 18-aspect classifier",
+    "Pilot and audit use train data; no gold accuracy claimed",
+    "Retained valid items do not imply that raw model output passed the full schema"
+  ]
+}

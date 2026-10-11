@@ -1,0 +1,27 @@
+{
+  "version": "asap-v0.1",
+  "domain": "restaurant",
+  "aspects": {
+    "Location#Transportation": "交通便利",
+    "Location#Downtown": "商圈位置",
+    "Location#Easy_to_find": "容易寻找",
+    "Service#Queue": "排队等候",
+    "Service#Hospitality": "服务态度",
+    "Service#Parking": "停车服务",
+    "Service#Timely": "上菜及时性",
+    "Price#Level": "价格水平",
+    "Price#Cost_effective": "性价比",
+    "Price#Discount": "优惠折扣",
+    "Ambience#Decoration": "装修环境",
+    "Ambience#Noise": "噪音",
+    "Ambience#Space": "空间",
+    "Ambience#Sanitary": "卫生",
+    "Food#Portion": "分量",
+    "Food#Taste": "口味",
+    "Food#Appearance": "卖相",
+    "Food#Recommend": "菜品推荐"
+  },
+  "sentiments": ["positive", "negative", "neutral", "mixed", "unknown"],
+  "intents": ["praise", "complaint", "improvement_request", "help_request", "statement", "unknown"],
+  "note": "mixed、unknown、intents 与证据为扩展任务；不修改 ASAP 原始四值标签。"
+}

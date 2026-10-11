@@ -1,0 +1,21 @@
+{
+  "purpose": "Source hashes for the stage 1 implementation; excludes raw data and local paths",
+  "sha256": {
+    "configs/stage1.json": "808855b20a1a47151f23f3bee2ff95ab5a0d5904d2c5862d351aa5c7b03b30be",
+    "requirements-stage1-lock.txt": "c00a471629b3d711e0d7a88c854ff390f1721190fa70bc8df4e33e22261b4b9b",
+    "scripts/evaluate_stage1.py": "2ead085a7b6c88af72ae57b1188166fcdb74ee4139deb782b075b4878139b5e2",
+    "scripts/fetch_stage1_model.py": "e021eebd67f8ff0224fc8866564870ecaa6f349b8a175082b865b6499c107e0a",
+    "scripts/import_feedback.py": "a5827c310a62ce1b4dd8ee58ffef3737846622a0a66cc5270e9a9f7551fc3188",
+    "scripts/prepare_stage1.py": "ed3e545998dccc6fbd4975fb10548b297861621072b4f80f078f9e0dc80543c4",
+    "scripts/report_stage1.py": "8710e084dec34bc8763ef002b4cd2780c37d0510fb7069f8be92a1b1fb51cf27",
+    "scripts/train_encoder.py": "c56b1c2e341ecad8dd85d26cc2c31959c62d00cc16e26e2b3b13c3626d214b92",
+    "scripts/train_tfidf.py": "ecc64d6bac6095242932dee2547dbfe7cc7f49a3e1eab6b83b1a3fe6e25e495f",
+    "src/echolens/__init__.py": "32fa2af4d4fa9fe64b0dce6fcb12e8e055a64a3c46cabda2a379da8fea14c474",
+    "src/echolens/contracts.py": "efb3d713eb3e6530b494b8446f0da9ddd67609bf4cbf1e0567b25fda7ef0561a",
+    "src/echolens/encoder.py": "4984673514c3a1f203a4af908ab2e2fa3a690df8abe5048029cc6a0e97dc52fa",
+    "src/echolens/evaluate.py": "281c976927300851695abf0b4df6e91e5523f72aabc3c12999153289339988bb",
+    "src/echolens/experiments.py": "df3ac48ac24717f73fffa2dc10bf4177b42e78b4317a3ed40d11ad09fa18c0a7",
+    "src/echolens/ingest.py": "ec1604b3779a9c460be4cc856f6a5ce9f91a218fefbb93074733c98b0ecb89a2",
+    "src/echolens/quality.py": "186bf0a2a3a13a9f9c788c79bf13eb17721cd7ebe7b34192207e75876d773c47"
+  }
+}

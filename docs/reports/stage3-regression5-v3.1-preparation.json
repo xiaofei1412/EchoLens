@@ -1,0 +1,24 @@
+{
+  "records": 5,
+  "batches": 5,
+  "batch_size": 1,
+  "source_record_ids": [
+    "41904",
+    "22886",
+    "17987",
+    "17571",
+    "27257"
+  ],
+  "characters": 2401,
+  "unchanged_original_text_and_spans": true,
+  "aspect_count": 28,
+  "unchanged_label_sha256": "8409d0458d5400d3de7b60d219bfb083129e2291c9ec2766a0a5c929adef9e99",
+  "guideline_version": "teacher-v3.1",
+  "known_case_regression": true,
+  "unseen_evaluation": false,
+  "prepared_only": true,
+  "model_calls": 0,
+  "human_gold": false,
+  "training_ready": false,
+  "manifest_sha256": "707745af9a9e549345c9d1fa1a6f2d7390d008ef4634ef5d773174df11b2f1c5"
+}

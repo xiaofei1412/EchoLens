@@ -1,0 +1,14 @@
+{
+  "generation": {
+    "repo_id": "Qwen/Qwen3.5-4B",
+    "revision": "851bf6e806efd8d0a36b00ddf55e13ccb7b8cd0a",
+    "local_dir": "models/Qwen3.5-4B",
+    "role": "text-only extraction and QLoRA probe"
+  },
+  "embedding": {
+    "repo_id": "Qwen/Qwen3-Embedding-0.6B",
+    "revision": "97b0c614be4d77ee51c0cef4e5f07c00f9eb65b3",
+    "local_dir": "models/Qwen3-Embedding-0.6B",
+    "role": "semantic embedding smoke test"
+  }
+}

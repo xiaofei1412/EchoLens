@@ -1,0 +1,102 @@
+{
+  "records": 10,
+  "opinions": 152,
+  "coverage_spans": 367,
+  "empty_reference_repairs": 69,
+  "overlap_warnings": 1,
+  "structural_checks_passed_after_normalization": true,
+  "raw_strict_schema_passed": false,
+  "record_order_matches_input": true,
+  "by_output_order": [
+    {
+      "order": 1,
+      "text_characters": 104,
+      "opinions": 4,
+      "coverage_spans": 13,
+      "review_questions": 0
+    },
+    {
+      "order": 2,
+      "text_characters": 698,
+      "opinions": 20,
+      "coverage_spans": 55,
+      "review_questions": 1
+    },
+    {
+      "order": 3,
+      "text_characters": 200,
+      "opinions": 5,
+      "coverage_spans": 23,
+      "review_questions": 0
+    },
+    {
+      "order": 4,
+      "text_characters": 620,
+      "opinions": 28,
+      "coverage_spans": 73,
+      "review_questions": 0
+    },
+    {
+      "order": 5,
+      "text_characters": 200,
+      "opinions": 7,
+      "coverage_spans": 19,
+      "review_questions": 0
+    },
+    {
+      "order": 6,
+      "text_characters": 555,
+      "opinions": 25,
+      "coverage_spans": 57,
+      "review_questions": 1
+    },
+    {
+      "order": 7,
+      "text_characters": 200,
+      "opinions": 7,
+      "coverage_spans": 26,
+      "review_questions": 0
+    },
+    {
+      "order": 8,
+      "text_characters": 415,
+      "opinions": 21,
+      "coverage_spans": 53,
+      "review_questions": 0
+    },
+    {
+      "order": 9,
+      "text_characters": 289,
+      "opinions": 17,
+      "coverage_spans": 17,
+      "review_questions": 0
+    },
+    {
+      "order": 10,
+      "text_characters": 333,
+      "opinions": 18,
+      "coverage_spans": 31,
+      "review_questions": 0
+    }
+  ],
+  "first_five_opinions": 64,
+  "last_five_opinions": 88,
+  "tail_degradation_observed": false,
+  "length_causal_effect_established": false,
+  "model_user_reported": "GPT-5.6 Sol",
+  "thinking": "unknown",
+  "model_identity_verified": false,
+  "review_origin": "AI reading, not human gold",
+  "semantic_accuracy_established": false,
+  "decision": "Continue as machine preannotation with revised rules and small-batch review; not unattended gold labeling",
+  "recurring_issues": [
+    "aspect overreach and taxonomy gaps",
+    "self-action versus provider attribution",
+    "sentiment attribution",
+    "short evidence context"
+  ],
+  "raw_sha256": "8976e25a6e09286c20e35433dc7356b9defd470a7691239dd5da4fce444871cb",
+  "input_sha256": "657592d15f6777a426584c208fe22ff9ce922f4d655b205cd122eab20be6b5c5",
+  "human_gold": false,
+  "training_ready": false
+}

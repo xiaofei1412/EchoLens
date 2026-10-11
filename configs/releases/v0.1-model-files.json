@@ -1,0 +1,83 @@
+{
+  "version": "0.1.0",
+  "license": "Apache-2.0",
+  "files": [
+    {
+      "source": "artifacts/stage-03/sft-full-v2/checkpoint-0102-29217c/adapter/adapter_config.json",
+      "member": "adapter/adapter_config.json",
+      "destination": "artifacts/stage-03/sft-full-v2/checkpoint-0102-29217c/adapter/adapter_config.json",
+      "bytes": 1254,
+      "sha256": "24dc201fbb37aa9ebe9f2074e4a16e168bc3b5d2f57ffe73632cb17234dd65f9"
+    },
+    {
+      "source": "artifacts/stage-03/sft-full-v2/checkpoint-0102-29217c/adapter/adapter_model.safetensors",
+      "member": "adapter/adapter_model.safetensors",
+      "destination": "artifacts/stage-03/sft-full-v2/checkpoint-0102-29217c/adapter/adapter_model.safetensors",
+      "bytes": 64996408,
+      "sha256": "29c576d664ada7cd43ee385c9565bd3255db9b0b60b6798c370b21fd62eacc42"
+    },
+    {
+      "source": "artifacts/stage-01/encoder-clean/best.pt",
+      "member": "classifier/best.pt",
+      "destination": "artifacts/stage-01/encoder-clean/best.pt",
+      "bytes": 409374765,
+      "sha256": "de6b70bfdee2e372c3bdabebe7e113632ed89e9ae14953bc5f2a949dc4dbf3a4"
+    },
+    {
+      "source": "MODEL_CARD.md",
+      "member": "MODEL_CARD.md",
+      "destination": "artifacts/model-distribution/v0.1/MODEL_CARD.md",
+      "bytes": 5277,
+      "sha256": "27da1038234270b6b997f8ddc72aaa79626c642880a73ac4ba498e529bc98c08"
+    },
+    {
+      "source": "LICENSE",
+      "member": "LICENSE",
+      "destination": "artifacts/model-distribution/v0.1/LICENSE",
+      "bytes": 11358,
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+    },
+    {
+      "source": "NOTICE",
+      "member": "NOTICE",
+      "destination": "artifacts/model-distribution/v0.1/NOTICE",
+      "bytes": 1119,
+      "sha256": "647ba1a832b28b566b9f35a8f558423ba71c2a707ef9db1d0e824cdff5adeecd"
+    },
+    {
+      "source": "THIRD_PARTY_NOTICES.md",
+      "member": "THIRD_PARTY_NOTICES.md",
+      "destination": "artifacts/model-distribution/v0.1/THIRD_PARTY_NOTICES.md",
+      "bytes": 3254,
+      "sha256": "e221eb76376337dbafd9534773c7b06ffae6a0a980a508776fa57655607e4015"
+    },
+    {
+      "source": "licenses/ASAP-LICENSE.txt",
+      "member": "licenses/ASAP-LICENSE.txt",
+      "destination": "artifacts/model-distribution/v0.1/licenses/ASAP-LICENSE.txt",
+      "bytes": 11357,
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+    },
+    {
+      "source": "licenses/Chinese-BERT-wwm-LICENSE.txt",
+      "member": "licenses/Chinese-BERT-wwm-LICENSE.txt",
+      "destination": "artifacts/model-distribution/v0.1/licenses/Chinese-BERT-wwm-LICENSE.txt",
+      "bytes": 11357,
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+    },
+    {
+      "source": "licenses/Qwen3.5-4B-LICENSE.txt",
+      "member": "licenses/Qwen3.5-4B-LICENSE.txt",
+      "destination": "artifacts/model-distribution/v0.1/licenses/Qwen3.5-4B-LICENSE.txt",
+      "bytes": 11544,
+      "sha256": "bbedc3fda3305820b977265f01b8619d87570a6739de3a5582c3464840f1e57a"
+    },
+    {
+      "source": "licenses/sources.json",
+      "member": "licenses/sources.json",
+      "destination": "artifacts/model-distribution/v0.1/licenses/sources.json",
+      "bytes": 1124,
+      "sha256": "ab52bfe9ad7b0afe6d7eb60683c8259cb12cb61ce2ac018f81698a2089da8d52"
+    }
+  ]
+}

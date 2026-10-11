@@ -1,0 +1,25 @@
+{
+  "records": 900,
+  "batches": 180,
+  "seed": 2026100903,
+  "excluded_source_ids": 1208,
+  "overlap_with_prior_exposure": 0,
+  "distinct_duplicate_groups": 900,
+  "length_strata": {
+    "1-200": 90,
+    "201-500": 540,
+    "501+": 270
+  },
+  "pilot_length_strata": {
+    "1-200": 4,
+    "201-500": 10,
+    "501+": 6
+  },
+  "max_batch_characters": 2963,
+  "manifest_sha256": "f82b975a4da7acd52bca599700b3903bc4afa0ebb8c1be7e3dcfff5e623eb764",
+  "rule_sha256": "b86d4f59c386ae8fef53fdd9fdc2731e4951616046969fcc2346f6e815ee12a5",
+  "prepared_only": true,
+  "model_calls": 0,
+  "human_gold": false,
+  "training_ready": false
+}

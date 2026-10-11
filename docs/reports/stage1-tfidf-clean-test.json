@@ -1,0 +1,977 @@
+{
+  "run": "tfidf-clean",
+  "test_freeze_sha256": "65be75922f554cf2ef161a523b0c1f9457ed0742b928cacb9fd8a0fa49818116",
+  "results": {
+    "official": {
+      "metrics": {
+        "rows": 4940,
+        "aspects": {
+          "macro_f1": 0.7201558567525075,
+          "micro_f1": 0.7823945465650058,
+          "micro_precision": 0.8866264791248046,
+          "micro_recall": 0.7000916719554333,
+          "per_label": {
+            "Location#Transportation": {
+              "precision": 0.9111389236545682,
+              "recall": 0.7443762781186094,
+              "f1": 0.8193584693303321,
+              "support": 978
+            },
+            "Location#Downtown": {
+              "precision": 0.8110236220472441,
+              "recall": 0.4735632183908046,
+              "f1": 0.5979680696661829,
+              "support": 870
+            },
+            "Location#Easy_to_find": {
+              "precision": 0.9143730886850153,
+              "recall": 0.6089613034623218,
+              "f1": 0.7310513447432763,
+              "support": 982
+            },
+            "Service#Queue": {
+              "precision": 0.8575498575498576,
+              "recall": 0.41346153846153844,
+              "f1": 0.5579240037071362,
+              "support": 728
+            },
+            "Service#Hospitality": {
+              "precision": 0.9390681003584229,
+              "recall": 0.8412415269354263,
+              "f1": 0.8874670681219421,
+              "support": 2803
+            },
+            "Service#Parking": {
+              "precision": 0.9308943089430894,
+              "recall": 0.7024539877300614,
+              "f1": 0.8006993006993007,
+              "support": 326
+            },
+            "Service#Timely": {
+              "precision": 0.8970917225950783,
+              "recall": 0.5276315789473685,
+              "f1": 0.6644573322286661,
+              "support": 760
+            },
+            "Price#Level": {
+              "precision": 0.9019812304483837,
+              "recall": 0.7104722792607803,
+              "f1": 0.7948541235929244,
+              "support": 2435
+            },
+            "Price#Cost_effective": {
+              "precision": 0.8400537634408602,
+              "recall": 0.5803156917363046,
+              "f1": 0.686436024162548,
+              "support": 1077
+            },
+            "Price#Discount": {
+              "precision": 0.8829516539440203,
+              "recall": 0.6690231362467867,
+              "f1": 0.7612431444241317,
+              "support": 1556
+            },
+            "Ambience#Decoration": {
+              "precision": 0.891848694725626,
+              "recall": 0.7840749414519906,
+              "f1": 0.8344965104685942,
+              "support": 2135
+            },
+            "Ambience#Noise": {
+              "precision": 0.8245299910474485,
+              "recall": 0.6382536382536382,
+              "f1": 0.71953125,
+              "support": 1443
+            },
+            "Ambience#Space": {
+              "precision": 0.8001598721023181,
+              "recall": 0.5742971887550201,
+              "f1": 0.6686706746826987,
+              "support": 1743
+            },
+            "Ambience#Sanitary": {
+              "precision": 0.8348837209302326,
+              "recall": 0.6595223515003061,
+              "f1": 0.7369141293191926,
+              "support": 1633
+            },
+            "Food#Portion": {
+              "precision": 0.8668442077230359,
+              "recall": 0.6205910390848427,
+              "f1": 0.7233333333333334,
+              "support": 2098
+            },
+            "Food#Taste": {
+              "precision": 0.9598842018196857,
+              "recall": 0.992092327420389,
+              "f1": 0.9757225433526011,
+              "support": 4679
+            },
+            "Food#Appearance": {
+              "precision": 0.7099841521394612,
+              "recall": 0.3569721115537849,
+              "f1": 0.4750795334040297,
+              "support": 1255
+            },
+            "Food#Recommend": {
+              "precision": 0.6891385767790262,
+              "recall": 0.4274099883855981,
+              "f1": 0.5275985663082438,
+              "support": 861
+            }
+          }
+        },
+        "pairs": {
+          "macro_f1": 0.4052252419252216,
+          "micro_f1": 0.621667947278208,
+          "micro_precision": 0.7044876088412592,
+          "micro_recall": 0.5562724772583033,
+          "per_label": {
+            "Location#Transportation/-1": {
+              "precision": 1.0,
+              "recall": 0.029411764705882353,
+              "f1": 0.05714285714285714,
+              "support": 68
+            },
+            "Location#Transportation/0": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0,
+              "support": 47
+            },
+            "Location#Transportation/1": {
+              "precision": 0.8569636135508155,
+              "recall": 0.7914252607184241,
+              "f1": 0.8228915662650602,
+              "support": 863
+            },
+            "Location#Downtown/-1": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0,
+              "support": 24
+            },
+            "Location#Downtown/0": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0,
+              "support": 22
+            },
+            "Location#Downtown/1": {
+              "precision": 0.8011811023622047,
+              "recall": 0.49393203883495146,
+              "f1": 0.6111111111111112,
+              "support": 824
+            },
+            "Location#Easy_to_find/-1": {
+              "precision": 0.75,
+              "recall": 0.1935483870967742,
+              "f1": 0.3076923076923077,
+              "support": 186
+            },
+            "Location#Easy_to_find/0": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0,
+              "support": 114
+            },
+            "Location#Easy_to_find/1": {
+              "precision": 0.7673267326732673,
+              "recall": 0.6818181818181818,
+              "f1": 0.7220496894409938,
+              "support": 682
+            },
+            "Service#Queue/-1": {
+              "precision": 0.648,
+              "recall": 0.37155963302752293,
+              "f1": 0.47230320699708456,
+              "support": 218
+            },
+            "Service#Queue/0": {
+              "precision": 0.3953488372093023,
+              "recall": 0.19767441860465115,
+              "f1": 0.26356589147286824,
+              "support": 258
+            },
+            "Service#Queue/1": {
+              "precision": 0.6185567010309279,
+              "recall": 0.23809523809523808,
+              "f1": 0.3438395415472779,
+              "support": 252
+            },
+            "Service#Hospitality/-1": {
+              "precision": 0.7230392156862745,
+              "recall": 0.6197478991596639,
+              "f1": 0.667420814479638,
+              "support": 476
+            },
+            "Service#Hospitality/0": {
+              "precision": 0.506993006993007,
+              "recall": 0.24247491638795987,
+              "f1": 0.32805429864253394,
+              "support": 598
+            },
+            "Service#Hospitality/1": {
+              "precision": 0.7930654925701706,
+              "recall": 0.8334297281665702,
+              "f1": 0.8127467569091935,
+              "support": 1729
+            },
+            "Service#Parking/-1": {
+              "precision": 0.6842105263157895,
+              "recall": 0.18055555555555555,
+              "f1": 0.2857142857142857,
+              "support": 72
+            },
+            "Service#Parking/0": {
+              "precision": 0.45454545454545453,
+              "recall": 0.07246376811594203,
+              "f1": 0.125,
+              "support": 69
+            },
+            "Service#Parking/1": {
+              "precision": 0.6388888888888888,
+              "recall": 0.745945945945946,
+              "f1": 0.6882793017456359,
+              "support": 185
+            },
+            "Service#Timely/-1": {
+              "precision": 0.70625,
+              "recall": 0.4329501915708812,
+              "f1": 0.5368171021377672,
+              "support": 261
+            },
+            "Service#Timely/0": {
+              "precision": 0.6,
+              "recall": 0.029411764705882353,
+              "f1": 0.056074766355140186,
+              "support": 102
+            },
+            "Service#Timely/1": {
+              "precision": 0.7872340425531915,
+              "recall": 0.5591939546599496,
+              "f1": 0.6539027982326951,
+              "support": 397
+            },
+            "Price#Level/-1": {
+              "precision": 0.7642276422764228,
+              "recall": 0.6045016077170418,
+              "f1": 0.6750448833034112,
+              "support": 622
+            },
+            "Price#Level/0": {
+              "precision": 0.549438202247191,
+              "recall": 0.44986200551977923,
+              "f1": 0.4946889226100152,
+              "support": 1087
+            },
+            "Price#Level/1": {
+              "precision": 0.6380597014925373,
+              "recall": 0.47107438016528924,
+              "f1": 0.5419968304278923,
+              "support": 726
+            },
+            "Price#Cost_effective/-1": {
+              "precision": 0.6122448979591837,
+              "recall": 0.24193548387096775,
+              "f1": 0.3468208092485549,
+              "support": 124
+            },
+            "Price#Cost_effective/0": {
+              "precision": 0.47058823529411764,
+              "recall": 0.05925925925925926,
+              "f1": 0.10526315789473684,
+              "support": 135
+            },
+            "Price#Cost_effective/1": {
+              "precision": 0.7256637168141593,
+              "recall": 0.6014669926650367,
+              "f1": 0.6577540106951871,
+              "support": 818
+            },
+            "Price#Discount/-1": {
+              "precision": 0.5,
+              "recall": 0.010869565217391304,
+              "f1": 0.02127659574468085,
+              "support": 92
+            },
+            "Price#Discount/0": {
+              "precision": 0.5803432137285491,
+              "recall": 0.4888304862023653,
+              "f1": 0.5306704707560628,
+              "support": 761
+            },
+            "Price#Discount/1": {
+              "precision": 0.7779850746268657,
+              "recall": 0.5931721194879089,
+              "f1": 0.6731234866828087,
+              "support": 703
+            },
+            "Ambience#Decoration/-1": {
+              "precision": 0.7142857142857143,
+              "recall": 0.04716981132075472,
+              "f1": 0.08849557522123894,
+              "support": 106
+            },
+            "Ambience#Decoration/0": {
+              "precision": 0.644927536231884,
+              "recall": 0.22305764411027568,
+              "f1": 0.33147113594040967,
+              "support": 399
+            },
+            "Ambience#Decoration/1": {
+              "precision": 0.7638568129330254,
+              "recall": 0.8116564417177914,
+              "f1": 0.7870315288518739,
+              "support": 1630
+            },
+            "Ambience#Noise/-1": {
+              "precision": 0.7111111111111111,
+              "recall": 0.3950617283950617,
+              "f1": 0.5079365079365079,
+              "support": 162
+            },
+            "Ambience#Noise/0": {
+              "precision": 0.7419354838709677,
+              "recall": 0.19008264462809918,
+              "f1": 0.3026315789473684,
+              "support": 242
+            },
+            "Ambience#Noise/1": {
+              "precision": 0.7046632124352331,
+              "recall": 0.6544754571703562,
+              "f1": 0.6786427145708582,
+              "support": 1039
+            },
+            "Ambience#Space/-1": {
+              "precision": 0.6868686868686869,
+              "recall": 0.2446043165467626,
+              "f1": 0.36074270557029176,
+              "support": 278
+            },
+            "Ambience#Space/0": {
+              "precision": 0.5732484076433121,
+              "recall": 0.21377672209026127,
+              "f1": 0.31141868512110726,
+              "support": 421
+            },
+            "Ambience#Space/1": {
+              "precision": 0.6472361809045226,
+              "recall": 0.6168582375478927,
+              "f1": 0.6316821971554684,
+              "support": 1044
+            },
+            "Ambience#Sanitary/-1": {
+              "precision": 0.6951219512195121,
+              "recall": 0.25675675675675674,
+              "f1": 0.375,
+              "support": 222
+            },
+            "Ambience#Sanitary/0": {
+              "precision": 0.6122448979591837,
+              "recall": 0.14084507042253522,
+              "f1": 0.22900763358778625,
+              "support": 213
+            },
+            "Ambience#Sanitary/1": {
+              "precision": 0.722174288179465,
+              "recall": 0.6986644407345576,
+              "f1": 0.7102248621128553,
+              "support": 1198
+            },
+            "Food#Portion/-1": {
+              "precision": 0.65234375,
+              "recall": 0.36225596529284165,
+              "f1": 0.46582984658298465,
+              "support": 461
+            },
+            "Food#Portion/0": {
+              "precision": 0.35877862595419846,
+              "recall": 0.1260053619302949,
+              "f1": 0.1865079365079365,
+              "support": 373
+            },
+            "Food#Portion/1": {
+              "precision": 0.6887892376681615,
+              "recall": 0.6075949367088608,
+              "f1": 0.6456494325346784,
+              "support": 1264
+            },
+            "Food#Taste/-1": {
+              "precision": 0.6495726495726496,
+              "recall": 0.3671497584541063,
+              "f1": 0.4691358024691358,
+              "support": 207
+            },
+            "Food#Taste/0": {
+              "precision": 0.6936542669584245,
+              "recall": 0.6617954070981211,
+              "f1": 0.6773504273504274,
+              "support": 1916
+            },
+            "Food#Taste/1": {
+              "precision": 0.7333102732618471,
+              "recall": 0.8294209702660407,
+              "f1": 0.7784101340187259,
+              "support": 2556
+            },
+            "Food#Appearance/-1": {
+              "precision": 0.5263157894736842,
+              "recall": 0.06993006993006994,
+              "f1": 0.12345679012345678,
+              "support": 143
+            },
+            "Food#Appearance/0": {
+              "precision": 0.18181818181818182,
+              "recall": 0.010416666666666666,
+              "f1": 0.019704433497536946,
+              "support": 192
+            },
+            "Food#Appearance/1": {
+              "precision": 0.6073211314475874,
+              "recall": 0.3967391304347826,
+              "f1": 0.4799474030243261,
+              "support": 920
+            },
+            "Food#Recommend/-1": {
+              "precision": 0.6486486486486487,
+              "recall": 0.26373626373626374,
+              "f1": 0.375,
+              "support": 91
+            },
+            "Food#Recommend/0": {
+              "precision": 0.3333333333333333,
+              "recall": 0.012987012987012988,
+              "f1": 0.025,
+              "support": 77
+            },
+            "Food#Recommend/1": {
+              "precision": 0.6255060728744939,
+              "recall": 0.4458874458874459,
+              "f1": 0.5206402695871946,
+              "support": 693
+            }
+          }
+        },
+        "sentiment_on_gold_mentions": {
+          "macro_f1": 0.5748248036614001,
+          "accuracy": 0.5562724772583033,
+          "predicted_mention_coverage": 0.7000916719554333,
+          "positions": 28362,
+          "per_class": {
+            "-1": {
+              "precision": 0.7664864864864865,
+              "recall": 0.3718856543404144,
+              "f1": 0.5007946318205898,
+              "support": 3813
+            },
+            "0": {
+              "precision": 0.6675075681130171,
+              "recall": 0.376601195559351,
+              "f1": 0.48152866242038217,
+              "support": 7026
+            },
+            "1": {
+              "precision": 0.8341404358353511,
+              "recall": 0.6684357701306853,
+              "f1": 0.7421511167432283,
+              "support": 17523
+            }
+          }
+        }
+      },
+      "timing": {
+        "seconds": 1.0356475999578834,
+        "scope": "TF-IDF transform + all 18 classifier predictions; excludes loading"
+      }
+    },
+    "clean": {
+      "metrics": {
+        "rows": 4937,
+        "aspects": {
+          "macro_f1": 0.7201264173623275,
+          "micro_f1": 0.7823515495623373,
+          "micro_precision": 0.8865951742627346,
+          "micro_recall": 0.7000423370025403,
+          "per_label": {
+            "Location#Transportation": {
+              "precision": 0.9109159347553325,
+              "recall": 0.7438524590163934,
+              "f1": 0.8189509306260575,
+              "support": 976
+            },
+            "Location#Downtown": {
+              "precision": 0.8110236220472441,
+              "recall": 0.4735632183908046,
+              "f1": 0.5979680696661829,
+              "support": 870
+            },
+            "Location#Easy_to_find": {
+              "precision": 0.9142419601837672,
+              "recall": 0.6091836734693877,
+              "f1": 0.7311696264543784,
+              "support": 980
+            },
+            "Service#Queue": {
+              "precision": 0.8575498575498576,
+              "recall": 0.41346153846153844,
+              "f1": 0.5579240037071362,
+              "support": 728
+            },
+            "Service#Hospitality": {
+              "precision": 0.9389952153110048,
+              "recall": 0.8410714285714286,
+              "f1": 0.8873398643556896,
+              "support": 2800
+            },
+            "Service#Parking": {
+              "precision": 0.9308943089430894,
+              "recall": 0.7024539877300614,
+              "f1": 0.8006993006993007,
+              "support": 326
+            },
+            "Service#Timely": {
+              "precision": 0.8970917225950783,
+              "recall": 0.5276315789473685,
+              "f1": 0.6644573322286661,
+              "support": 760
+            },
+            "Price#Level": {
+              "precision": 0.9019812304483837,
+              "recall": 0.7104722792607803,
+              "f1": 0.7948541235929244,
+              "support": 2435
+            },
+            "Price#Cost_effective": {
+              "precision": 0.8400537634408602,
+              "recall": 0.5803156917363046,
+              "f1": 0.686436024162548,
+              "support": 1077
+            },
+            "Price#Discount": {
+              "precision": 0.8827527612574342,
+              "recall": 0.6685971685971686,
+              "f1": 0.7608934456243135,
+              "support": 1554
+            },
+            "Ambience#Decoration": {
+              "precision": 0.8917910447761194,
+              "recall": 0.7839737582005624,
+              "f1": 0.8344139650872818,
+              "support": 2134
+            },
+            "Ambience#Noise": {
+              "precision": 0.8252688172043011,
+              "recall": 0.6382536382536382,
+              "f1": 0.7198124267291911,
+              "support": 1443
+            },
+            "Ambience#Space": {
+              "precision": 0.8,
+              "recall": 0.574052812858783,
+              "f1": 0.6684491978609626,
+              "support": 1742
+            },
+            "Ambience#Sanitary": {
+              "precision": 0.8348837209302326,
+              "recall": 0.6599264705882353,
+              "f1": 0.7371663244353183,
+              "support": 1632
+            },
+            "Food#Portion": {
+              "precision": 0.8668442077230359,
+              "recall": 0.6208869814020028,
+              "f1": 0.7235343150875243,
+              "support": 2097
+            },
+            "Food#Taste": {
+              "precision": 0.9598593006414236,
+              "recall": 0.992087254063302,
+              "f1": 0.9757072247344621,
+              "support": 4676
+            },
+            "Food#Appearance": {
+              "precision": 0.7095238095238096,
+              "recall": 0.35645933014354064,
+              "f1": 0.4745222929936306,
+              "support": 1254
+            },
+            "Food#Recommend": {
+              "precision": 0.6891385767790262,
+              "recall": 0.42790697674418604,
+              "f1": 0.5279770444763271,
+              "support": 860
+            }
+          }
+        },
+        "pairs": {
+          "macro_f1": 0.40520705109231275,
+          "micro_f1": 0.621520384827695,
+          "micro_precision": 0.7043342269883824,
+          "micro_recall": 0.5561318092012418,
+          "per_label": {
+            "Location#Transportation/-1": {
+              "precision": 1.0,
+              "recall": 0.029411764705882353,
+              "f1": 0.05714285714285714,
+              "support": 68
+            },
+            "Location#Transportation/0": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0,
+              "support": 47
+            },
+            "Location#Transportation/1": {
+              "precision": 0.8566037735849057,
+              "recall": 0.7909407665505227,
+              "f1": 0.822463768115942,
+              "support": 861
+            },
+            "Location#Downtown/-1": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0,
+              "support": 24
+            },
+            "Location#Downtown/0": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0,
+              "support": 22
+            },
+            "Location#Downtown/1": {
+              "precision": 0.8011811023622047,
+              "recall": 0.49393203883495146,
+              "f1": 0.6111111111111112,
+              "support": 824
+            },
+            "Location#Easy_to_find/-1": {
+              "precision": 0.75,
+              "recall": 0.1945945945945946,
+              "f1": 0.3090128755364807,
+              "support": 185
+            },
+            "Location#Easy_to_find/0": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0,
+              "support": 114
+            },
+            "Location#Easy_to_find/1": {
+              "precision": 0.7669421487603306,
+              "recall": 0.6813509544787077,
+              "f1": 0.7216174183514774,
+              "support": 681
+            },
+            "Service#Queue/-1": {
+              "precision": 0.648,
+              "recall": 0.37155963302752293,
+              "f1": 0.47230320699708456,
+              "support": 218
+            },
+            "Service#Queue/0": {
+              "precision": 0.3953488372093023,
+              "recall": 0.19767441860465115,
+              "f1": 0.26356589147286824,
+              "support": 258
+            },
+            "Service#Queue/1": {
+              "precision": 0.6185567010309279,
+              "recall": 0.23809523809523808,
+              "f1": 0.3438395415472779,
+              "support": 252
+            },
+            "Service#Hospitality/-1": {
+              "precision": 0.7230392156862745,
+              "recall": 0.6197478991596639,
+              "f1": 0.667420814479638,
+              "support": 476
+            },
+            "Service#Hospitality/0": {
+              "precision": 0.506993006993007,
+              "recall": 0.24247491638795987,
+              "f1": 0.32805429864253394,
+              "support": 598
+            },
+            "Service#Hospitality/1": {
+              "precision": 0.7927232635060639,
+              "recall": 0.8331402085747392,
+              "f1": 0.8124293785310734,
+              "support": 1726
+            },
+            "Service#Parking/-1": {
+              "precision": 0.6842105263157895,
+              "recall": 0.18055555555555555,
+              "f1": 0.2857142857142857,
+              "support": 72
+            },
+            "Service#Parking/0": {
+              "precision": 0.45454545454545453,
+              "recall": 0.07246376811594203,
+              "f1": 0.125,
+              "support": 69
+            },
+            "Service#Parking/1": {
+              "precision": 0.6388888888888888,
+              "recall": 0.745945945945946,
+              "f1": 0.6882793017456359,
+              "support": 185
+            },
+            "Service#Timely/-1": {
+              "precision": 0.70625,
+              "recall": 0.4329501915708812,
+              "f1": 0.5368171021377672,
+              "support": 261
+            },
+            "Service#Timely/0": {
+              "precision": 0.6,
+              "recall": 0.029411764705882353,
+              "f1": 0.056074766355140186,
+              "support": 102
+            },
+            "Service#Timely/1": {
+              "precision": 0.7872340425531915,
+              "recall": 0.5591939546599496,
+              "f1": 0.6539027982326951,
+              "support": 397
+            },
+            "Price#Level/-1": {
+              "precision": 0.7642276422764228,
+              "recall": 0.6045016077170418,
+              "f1": 0.6750448833034112,
+              "support": 622
+            },
+            "Price#Level/0": {
+              "precision": 0.549438202247191,
+              "recall": 0.44986200551977923,
+              "f1": 0.4946889226100152,
+              "support": 1087
+            },
+            "Price#Level/1": {
+              "precision": 0.6380597014925373,
+              "recall": 0.47107438016528924,
+              "f1": 0.5419968304278923,
+              "support": 726
+            },
+            "Price#Cost_effective/-1": {
+              "precision": 0.6122448979591837,
+              "recall": 0.24193548387096775,
+              "f1": 0.3468208092485549,
+              "support": 124
+            },
+            "Price#Cost_effective/0": {
+              "precision": 0.47058823529411764,
+              "recall": 0.05925925925925926,
+              "f1": 0.10526315789473684,
+              "support": 135
+            },
+            "Price#Cost_effective/1": {
+              "precision": 0.7256637168141593,
+              "recall": 0.6014669926650367,
+              "f1": 0.6577540106951871,
+              "support": 818
+            },
+            "Price#Discount/-1": {
+              "precision": 0.5,
+              "recall": 0.010869565217391304,
+              "f1": 0.02127659574468085,
+              "support": 92
+            },
+            "Price#Discount/0": {
+              "precision": 0.5803432137285491,
+              "recall": 0.4888304862023653,
+              "f1": 0.5306704707560628,
+              "support": 761
+            },
+            "Price#Discount/1": {
+              "precision": 0.7771535580524345,
+              "recall": 0.5920114122681883,
+              "f1": 0.6720647773279352,
+              "support": 701
+            },
+            "Ambience#Decoration/-1": {
+              "precision": 0.7142857142857143,
+              "recall": 0.04716981132075472,
+              "f1": 0.08849557522123894,
+              "support": 106
+            },
+            "Ambience#Decoration/0": {
+              "precision": 0.644927536231884,
+              "recall": 0.22305764411027568,
+              "f1": 0.33147113594040967,
+              "support": 399
+            },
+            "Ambience#Decoration/1": {
+              "precision": 0.7637203928365107,
+              "recall": 0.8115408225905464,
+              "f1": 0.7869047619047619,
+              "support": 1629
+            },
+            "Ambience#Noise/-1": {
+              "precision": 0.7111111111111111,
+              "recall": 0.3950617283950617,
+              "f1": 0.5079365079365079,
+              "support": 162
+            },
+            "Ambience#Noise/0": {
+              "precision": 0.7419354838709677,
+              "recall": 0.19008264462809918,
+              "f1": 0.3026315789473684,
+              "support": 242
+            },
+            "Ambience#Noise/1": {
+              "precision": 0.7053941908713693,
+              "recall": 0.6544754571703562,
+              "f1": 0.6789815277084373,
+              "support": 1039
+            },
+            "Ambience#Space/-1": {
+              "precision": 0.6868686868686869,
+              "recall": 0.2446043165467626,
+              "f1": 0.36074270557029176,
+              "support": 278
+            },
+            "Ambience#Space/0": {
+              "precision": 0.5732484076433121,
+              "recall": 0.21377672209026127,
+              "f1": 0.31141868512110726,
+              "support": 421
+            },
+            "Ambience#Space/1": {
+              "precision": 0.6468812877263581,
+              "recall": 0.6164908916586769,
+              "f1": 0.6313205694648993,
+              "support": 1043
+            },
+            "Ambience#Sanitary/-1": {
+              "precision": 0.6951219512195121,
+              "recall": 0.25675675675675674,
+              "f1": 0.375,
+              "support": 222
+            },
+            "Ambience#Sanitary/0": {
+              "precision": 0.6122448979591837,
+              "recall": 0.14084507042253522,
+              "f1": 0.22900763358778625,
+              "support": 213
+            },
+            "Ambience#Sanitary/1": {
+              "precision": 0.722174288179465,
+              "recall": 0.6992481203007519,
+              "f1": 0.7105263157894737,
+              "support": 1197
+            },
+            "Food#Portion/-1": {
+              "precision": 0.65234375,
+              "recall": 0.36225596529284165,
+              "f1": 0.46582984658298465,
+              "support": 461
+            },
+            "Food#Portion/0": {
+              "precision": 0.35877862595419846,
+              "recall": 0.1260053619302949,
+              "f1": 0.1865079365079365,
+              "support": 373
+            },
+            "Food#Portion/1": {
+              "precision": 0.6887892376681615,
+              "recall": 0.6080760095011877,
+              "f1": 0.6459209419680404,
+              "support": 1263
+            },
+            "Food#Taste/-1": {
+              "precision": 0.6495726495726496,
+              "recall": 0.3671497584541063,
+              "f1": 0.4691358024691358,
+              "support": 207
+            },
+            "Food#Taste/0": {
+              "precision": 0.6936542669584245,
+              "recall": 0.6617954070981211,
+              "f1": 0.6773504273504274,
+              "support": 1916
+            },
+            "Food#Taste/1": {
+              "precision": 0.7330332409972299,
+              "recall": 0.8292205248726988,
+              "f1": 0.7781657783495681,
+              "support": 2553
+            },
+            "Food#Appearance/-1": {
+              "precision": 0.5263157894736842,
+              "recall": 0.06993006993006994,
+              "f1": 0.12345679012345678,
+              "support": 143
+            },
+            "Food#Appearance/0": {
+              "precision": 0.18181818181818182,
+              "recall": 0.010416666666666666,
+              "f1": 0.019704433497536946,
+              "support": 192
+            },
+            "Food#Appearance/1": {
+              "precision": 0.6066666666666667,
+              "recall": 0.39608269858541895,
+              "f1": 0.4792626728110599,
+              "support": 919
+            },
+            "Food#Recommend/-1": {
+              "precision": 0.6486486486486487,
+              "recall": 0.26373626373626374,
+              "f1": 0.375,
+              "support": 91
+            },
+            "Food#Recommend/0": {
+              "precision": 0.3333333333333333,
+              "recall": 0.012987012987012988,
+              "f1": 0.025,
+              "support": 77
+            },
+            "Food#Recommend/1": {
+              "precision": 0.6255060728744939,
+              "recall": 0.44653179190751446,
+              "f1": 0.521079258010118,
+              "support": 692
+            }
+          }
+        },
+        "sentiment_on_gold_mentions": {
+          "macro_f1": 0.5748015041043161,
+          "accuracy": 0.5561318092012418,
+          "predicted_mention_coverage": 0.7000423370025403,
+          "positions": 28344,
+          "per_class": {
+            "-1": {
+              "precision": 0.7664864864864865,
+              "recall": 0.3719832109129066,
+              "f1": 0.5008830801836807,
+              "support": 3812
+            },
+            "0": {
+              "precision": 0.6675075681130171,
+              "recall": 0.376601195559351,
+              "f1": 0.48152866242038217,
+              "support": 7026
+            },
+            "1": {
+              "precision": 0.8339749073282008,
+              "recall": 0.668285159373929,
+              "f1": 0.7419927697088856,
+              "support": 17506
+            }
+          }
+        }
+      },
+      "timing": {
+        "seconds": 1.0293292999267578,
+        "scope": "TF-IDF transform + all 18 classifier predictions; excludes loading"
+      }
+    }
+  },
+  "limitations": [
+    "Official training view contains known cross-split duplicate groups",
+    "Single seed; no significance or cross-domain claim",
+    "Pretrained encoder may have seen public data; this audit only addresses supervised split duplicates"
+  ]
+}

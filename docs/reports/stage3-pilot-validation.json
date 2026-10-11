@@ -1,0 +1,23 @@
+{
+  "scope": "stage3 step1 only; no inference or training",
+  "packet_sha256": "5f7db760cce2a72d24fe41665fe5a252a53b376abc05477bf9474e872eae1a22",
+  "tests": {
+    "full_suite_passed": 68,
+    "full_suite_seconds": 23.59,
+    "final_focused_passed": 6
+  },
+  "human_events_at_verification": 0,
+  "source_integrity_verified": true,
+  "evidence_spans_verified": 137,
+  "browser_entry": "http://127.0.0.1:8501/人工标注",
+  "files": {
+    "src/echolens/annotation.py": "51fe832f19585864294b20d8562136b55b92f8817935ffb24f3156468b30e920",
+    "src/echolens/annotation_ui.py": "a39ca4dc0b8bec3f90a39a4518a6829bf8387e227384ecce3a95eb319b045aeb",
+    "scripts/prepare_stage3_pilot.py": "b5a9dd8e658a3ef6c5cb62f4d1f41c0c824068486fe564c454513541a58cb04e",
+    "scripts/start_annotation.ps1": "5b79ab4357de7b0b72f710c8c2a6523b0a234f9d00589e8f83ec568561347d07",
+    "app/annotation_app.py": "e472a649f8f08cf46fe3552d2f1a82435fdbb5c9f60e13618a8dbf0fa9b12185",
+    "app/pages/3_人工标注.py": "68e1de322a9373e9b15b501b842adc29c60a623c7e775aa4636ec7ebe974737e",
+    "tests/test_annotation.py": "68a473d53c870c4518a9a381c60037bfef5d2a6f5d53c280b1e1a485a6b2ba12",
+    "docs/annotation-stage3.md": "24af963ff07f243e77c5b94678a8aa98171237a626f9d34e266d9546ba296ff7"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "train": {
+    "records": 810,
+    "teacher_counts": {
+      "teacher_with_ai_revision": 90,
+      "unknown": 90,
+      "gpt-5": 73,
+      "gpt-6-luna": 557
+    },
+    "raw_length_strata": {
+      "short": 81,
+      "medium": 486,
+      "long": 243
+    }
+  },
+  "dev": {
+    "records": 90,
+    "teacher_counts": {
+      "teacher_with_ai_revision": 10,
+      "unknown": 10,
+      "gpt-5": 8,
+      "gpt-6-luna": 62
+    },
+    "raw_length_strata": {
+      "short": 9,
+      "long": 27,
+      "medium": 54
+    }
+  },
+  "mask_boundary_verified_records": 900,
+  "semantic_edits": 0,
+  "gold_self_check_f1": 1.0,
+  "gold_self_check_is_model_score": false,
+  "relevant_tests_passed": 35
+}

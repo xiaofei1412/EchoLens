@@ -1,0 +1,48 @@
+{
+  "created_at": "2026-10-09T05:33:46.228907+00:00",
+  "note": "Stage 2 v2 iteration completed; semantic content acceptance not passed. Raw data, outputs, logs and weights remain local. This manifest does not replace the v1 manifest.",
+  "prompt_sha256": "92a4cbaa455e04a4890e5f32c84cb793acf8fba88e3e0e02c1e01ae4fd226a5d",
+  "models": {
+    "generation": {
+      "repo_id": "Qwen/Qwen3.5-4B",
+      "revision": "851bf6e806efd8d0a36b00ddf55e13ccb7b8cd0a",
+      "local_dir": "models/Qwen3.5-4B",
+      "role": "text-only extraction and QLoRA probe"
+    },
+    "embedding": {
+      "repo_id": "Qwen/Qwen3-Embedding-0.6B",
+      "revision": "97b0c614be4d77ee51c0cef4e5f07c00f9eb65b3",
+      "local_dir": "models/Qwen3-Embedding-0.6B",
+      "role": "semantic embedding smoke test"
+    }
+  },
+  "classifier_sha256": "de6b70bfdee2e372c3bdabebe7e113632ed89e9ae14953bc5f2a949dc4dbf3a4",
+  "generation": "BF16 batch=8; 216 raw windows reused with recorded provenance including previous batch=16 run; no promise of bitwise batch equivalence",
+  "validation": "48 regression tests passed; full 1000-record constraint verification passed; final UI labels compiled and browser tested",
+  "sha256": {
+    "app/streamlit_app.py": "6560202427ad87f18c34c6bbaab9b4879306a07fba473872f0d567670c33c0b9",
+    ".streamlit/config.toml": "ce8cb0f6978024ea5633c6ed857640195d002d5fd306e887965b89af159b2de0",
+    "configs/stage2-v2.json": "9a311998e63b540ff2ce267286ed61fe1e05ee9e11bbc9aa95a0188977fc693f",
+    "configs/models.json": "2ef3b2d36b3b8dd357cc608fa79fe6aa69393fb8144f46e60628aa66ca6e872f",
+    "requirements-stage2-lock.txt": "e87c2044deebf205a6690aaff5919176ff5f790720c2e95f1b5cab1ff59a96b4",
+    "src/echolens/workbench.py": "668cd7baa77dd51770b9fea19a1479cf50b457128428119e6eaa2590b530c437",
+    "src/echolens/extract.py": "258bc5352d8df5dffa4ed03a3bac6925e0e87e928616f176c2f33690ecb1e1c4",
+    "src/echolens/opinions_v2.py": "89ba063f71925c3892a27d28de37b04008ba9d6b332b33154891f96364ef11e8",
+    "src/echolens/quote_extraction.py": "0817c3e87e85f2a1ba4cc439d8c811cb1306bc5b8128e0034393a992fbd4df21",
+    "src/echolens/context_worker.py": "ee4b2e5a0c7cb2e0a9a3428263d1281308dae4e2a1f2521784f10b6082f36e59",
+    "src/echolens/topic_groups.py": "60e14fd872229cbff64002850ad2703452153475b149fea8caf7cf1d2e3d460a",
+    "scripts/prepare_stage2_revision.py": "da4c9f78634322d1f5cbb39ffe356f392d21cfdc5764ac67ac03ff8381687a59",
+    "scripts/analyze_stage2.py": "301dd33c134562c192ffd8d1ab52619459e15da2e036e98ae5e9330485600707",
+    "scripts/topics_stage2.py": "93a978098b8d2699e2b799e589f5b7f4b830bee799755e1e17934c492a3f5994",
+    "scripts/run_workbench_job.py": "72ee80dbf6ab793134e264f24b78e6b9b1c7bc24d68875222347c6ab198e253c",
+    "scripts/verify_stage2_revision.py": "1d0965df51474ea9a070250592b2c04e91167b998ff5720905576054405b8707",
+    "scripts/prepare_stage2_revision_fixture.py": "3f757ba25e1f31f99ba553748164bcbf2e20f1e98cc507e76fc542e9ceb54ec4",
+    "tests/test_workbench.py": "4b9e184344465ba52024f2a90022fbbeff34645ce48c25d3d84917675e0c29ff",
+    "tests/test_stage2_revision.py": "6c843761ef26981638b2647e1a3eb60c05059a53e4d6b9d44643bf9af564339f",
+    "docs/reports/stage2-v2-workflow.json": "9e24e01d4f2db4f0d854c0606e335f87b83eba00955fdb0f9260011be056bae8",
+    "docs/reports/stage2-v2-ai-audit.json": "58ffaf2b674f7f8663d75adeab12fb3545c72be32325efc4b84de82b6f67bdaa",
+    "docs/reports/stage2-v2-review.md": "fdbfcab22380d2e957107d85a5fe73aa2d31612cb04cd80e021431702044d8bd",
+    "docs/development/stage-02.md": "da8ea4b1300f94d31f5ce9f9c2c4aa65e118f555df87ce09814204af24bea191",
+    "docs/workbench-guide.md": "e8ea30721a2055d5456de71c64faf25196482c7210a2529f804a289a910b0d3e"
+  }
+}

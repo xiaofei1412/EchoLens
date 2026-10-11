@@ -1,0 +1,79 @@
+{
+  "processing_version": "asap-stage1-v1",
+  "source_revision": "975122a60065240124df62cb4d5dbfd19ed9ef2c",
+  "snapshot_sha256": "2ba4b37780b4d1f5f4b8cb580929d3c9290a373c6c523bdce1484583d06b7f18",
+  "aspects": [
+    "Location#Transportation",
+    "Location#Downtown",
+    "Location#Easy_to_find",
+    "Service#Queue",
+    "Service#Hospitality",
+    "Service#Parking",
+    "Service#Timely",
+    "Price#Level",
+    "Price#Cost_effective",
+    "Price#Discount",
+    "Ambience#Decoration",
+    "Ambience#Noise",
+    "Ambience#Space",
+    "Ambience#Sanitary",
+    "Food#Portion",
+    "Food#Taste",
+    "Food#Appearance",
+    "Food#Recommend"
+  ],
+  "import": {
+    "train": {
+      "input_rows": 36850,
+      "valid_unique_ids": 36850,
+      "rejected": [],
+      "repeated_id_rows": 0
+    }
+  },
+  "first_pass_inserted": 1000,
+  "repeat_inserted": 0,
+  "quality": {
+    "rows": 1000,
+    "languages": {
+      "zh_heuristic": 1000
+    },
+    "missing": {
+      "rating": 0,
+      "product_id": 1000,
+      "created_at": 1000,
+      "collected_at": 1000,
+      "parent_id": 1000,
+      "source_url": 1000
+    },
+    "normalization_changed": 6,
+    "rights": {
+      "upstream_apache_2.0": 1000
+    },
+    "note": "Language uses Han-character presence, not a multilingual language detector"
+  },
+  "near_duplicate_config": {
+    "char_ngram": 5,
+    "num_perm": 128,
+    "lsh_threshold": 0.7,
+    "verified_jaccard": 0.9,
+    "min_chars": 50
+  },
+  "duplicate_pairs": [],
+  "duplicate_groups": 0,
+  "cross_split_groups": 0,
+  "groups_with_conflicting_labels": 0,
+  "official_rows": {
+    "train": 1000
+  },
+  "clean_rows": {
+    "train": 1000
+  },
+  "exclusions": [],
+  "clean_group_overlap": 0,
+  "limitations": [
+    "MinHash candidate search can miss lexical near duplicates; not semantic deduplication",
+    "Transitive duplicate components; not all members necessarily pairwise above threshold",
+    "Priority test > dev > train, then lexical source ID; official files remain unchanged",
+    "No timestamp/product/user metadata; cannot test temporal or user leakage"
+  ]
+}

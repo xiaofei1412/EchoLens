@@ -1,0 +1,140 @@
+{
+  "reference": "AI teacher agreement, not human gold",
+  "records": 90,
+  "completed_epochs": 2,
+  "best_step": 102,
+  "dev_loss_evaluations": [
+    {
+      "step": 0,
+      "epoch": 0,
+      "dev_loss": 0.2888369278775321,
+      "records": 90,
+      "seconds": 45.159678999800235
+    },
+    {
+      "step": 25,
+      "epoch": 1,
+      "dev_loss": 0.20440896227955818,
+      "records": 90,
+      "seconds": 45.324708100408316
+    },
+    {
+      "step": 51,
+      "epoch": 1,
+      "dev_loss": 0.19097763838039505,
+      "records": 90,
+      "seconds": 45.53451199969277
+    },
+    {
+      "step": 76,
+      "epoch": 2,
+      "dev_loss": 0.18413795539074473,
+      "records": 90,
+      "seconds": 45.19603309966624
+    },
+    {
+      "step": 102,
+      "epoch": 2,
+      "dev_loss": 0.18055598992440436,
+      "records": 90,
+      "seconds": 45.42392720002681
+    }
+  ],
+  "second_epoch_decision": {
+    "continue": true,
+    "initial_dev_loss": 0.2888369278775321,
+    "midpoint_dev_loss": 0.20440896227955818,
+    "endpoint_dev_loss": 0.19097763838039505,
+    "late_relative_improvement": 0.06570809689251243,
+    "rule": "epoch1 endpoint below initial and at least 1% below step25"
+  },
+  "baseline_metrics": {
+    "records": 90,
+    "counts": {
+      "predicted": 1005,
+      "gold": 1296,
+      "strict_tp": 131,
+      "relaxed_tp": 279,
+      "json_valid": 82,
+      "schema_valid": 68,
+      "evidence_valid": 842,
+      "matched": 228
+    },
+    "joint_evidence_aspect_sentiment": {
+      "strict": {
+        "precision": 0.13034825870646766,
+        "recall": 0.10108024691358025,
+        "f1": 0.11386353759235114
+      },
+      "relaxed": {
+        "precision": 0.27761194029850744,
+        "recall": 0.2152777777777778,
+        "f1": 0.242503259452412
+      }
+    },
+    "json_valid_rate": 0.9111111111111111,
+    "schema_valid_rate": 0.7555555555555555,
+    "evidence_valid_rate": 0.8378109452736319,
+    "exact_span_matched_field_accuracy": {
+      "aspect": 0.631578947368421,
+      "sentiment": 0.8771929824561403,
+      "intent": 0.8114035087719298,
+      "scope": 0.9912280701754386,
+      "target": 0.14912280701754385
+    },
+    "reference": "AI teacher agreement, not human gold; malformed JSON counts as one false positive",
+    "relaxed_definition": "span IoU >= 0.5; both joint scores require aspect and sentiment; one-to-one matching"
+  },
+  "tuned_metrics": {
+    "records": 90,
+    "counts": {
+      "predicted": 1165,
+      "gold": 1296,
+      "strict_tp": 311,
+      "relaxed_tp": 627,
+      "json_valid": 88,
+      "schema_valid": 88,
+      "evidence_valid": 1161,
+      "matched": 390
+    },
+    "joint_evidence_aspect_sentiment": {
+      "strict": {
+        "precision": 0.2669527896995708,
+        "recall": 0.23996913580246915,
+        "f1": 0.25274278748476225
+      },
+      "relaxed": {
+        "precision": 0.5381974248927038,
+        "recall": 0.4837962962962963,
+        "f1": 0.509548963835839
+      }
+    },
+    "json_valid_rate": 0.9777777777777777,
+    "schema_valid_rate": 0.9777777777777777,
+    "evidence_valid_rate": 0.9965665236051502,
+    "exact_span_matched_field_accuracy": {
+      "aspect": 0.8512820512820513,
+      "sentiment": 0.9230769230769231,
+      "intent": 0.9,
+      "scope": 0.9923076923076923,
+      "target": 0.2641025641025641
+    },
+    "reference": "AI teacher agreement, not human gold; malformed JSON counts as one false positive",
+    "relaxed_definition": "span IoU >= 0.5; both joint scores require aspect and sentiment; one-to-one matching"
+  },
+  "delta": {
+    "json_valid_rate": 0.06666666666666665,
+    "schema_valid_rate": 0.2222222222222222,
+    "evidence_valid_rate": 0.15875557833151832
+  },
+  "joint_f1_delta": {
+    "strict": 0.13887924989241113,
+    "relaxed": 0.267045704383427
+  },
+  "baseline_mean_seconds": 36.93375672999666,
+  "tuned_mean_seconds": 51.246191707817424,
+  "baseline_output_limit_records": 4,
+  "tuned_output_limit_records": 2,
+  "verified_source_files": 1640,
+  "same_ids_and_metrics_verified": true
+}

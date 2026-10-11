@@ -1,0 +1,10 @@
+# Install torch separately from https://download.pytorch.org/whl/cu128
+torch==2.10.0+cu128
+transformers==5.19.0
+peft==0.19.1
+accelerate==1.13.0
+bitsandbytes==0.50.2
+huggingface-hub==1.33.0
+tokenizers==0.23.2
+safetensors==0.8.0
+pytest==9.0.2

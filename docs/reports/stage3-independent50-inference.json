@@ -1,0 +1,80 @@
+{
+  "records": 50,
+  "predictions": 100,
+  "source_overlaps": {
+    "record_ids": 0,
+    "source_ids": 0,
+    "normalized_texts": 0,
+    "duplicate_groups": 0
+  },
+  "sft_900_overlap": 0,
+  "length_strata": {
+    "long": 15,
+    "short": 15,
+    "medium": 20
+  },
+  "manifest_sha256": "380c7f903e8a13f31d7b0bad2b4f67f670e36458833b4dcff4988122cd2ac574",
+  "model": {
+    "repo_id": "Qwen/Qwen3.5-4B",
+    "revision": "851bf6e806efd8d0a36b00ddf55e13ccb7b8cd0a",
+    "local_dir": "models/Qwen3.5-4B",
+    "role": "text-only extraction and QLoRA probe"
+  },
+  "adapter": "artifacts\\stage-03\\sft-full-v2\\checkpoint-0102-29217c\\adapter",
+  "versions": {
+    "torch": "2.10.0+cu128",
+    "transformers": "5.19.0",
+    "peft": "0.19.1",
+    "bitsandbytes": "0.50.2",
+    "accelerate": "1.13.0"
+  },
+  "generation": {
+    "do_sample": false,
+    "thinking": false,
+    "max_new_tokens": 4096,
+    "quantization": "NF4 double quant"
+  },
+  "runs": {
+    "before": {
+      "mechanical_checks": {
+        "records": 50,
+        "json_valid": 47,
+        "schema_valid": 46,
+        "human_reviews": 0,
+        "note": "No gold answers; no accuracy or F1 computed"
+      },
+      "mean_seconds": 30.195370444012806,
+      "median_seconds": 25.531970399897546,
+      "output_limit_records": 2,
+      "peak_allocated_gib": 3.3931055068969727,
+      "generation_seconds": 1509.7685222006403,
+      "predictions_sha256": "e0dd7af68cb46a8b672107ecf9179568929cd0fbf37f80a2f83b2147e5e8995e",
+      "report_sha256": "1a455880b10ed287d5773e12faba025a30e85aa3b2ce56b48fca0a7334af0cce"
+    },
+    "after": {
+      "mechanical_checks": {
+        "records": 50,
+        "json_valid": 49,
+        "schema_valid": 48,
+        "human_reviews": 0,
+        "note": "No gold answers; no accuracy or F1 computed"
+      },
+      "mean_seconds": 48.08612400600687,
+      "median_seconds": 40.57501730043441,
+      "output_limit_records": 1,
+      "peak_allocated_gib": 3.432023525238037,
+      "generation_seconds": 2404.3062003003433,
+      "predictions_sha256": "b147c622911712183ad92c5e57839c79485b1e5f513cf3374e37b66af793e657",
+      "report_sha256": "3cfbd5bc2191df7e65fcc320bee1690bfd81693d50012e312a3ff83311a55897"
+    }
+  },
+  "human_review_events_at_verification": 0,
+  "human_gold": false,
+  "limitations": [
+    "ASAP test was used for frozen stage1 classification evaluation, not training/tuning",
+    "Project-level exclusion; cannot guarantee unseen in foundation-model pretraining",
+    "Existing MinHash groups may miss semantic paraphrases; restaurant domain only",
+    "Human pairwise review does not produce full gold opinion spans or human F1"
+  ],
+  "interpretation": "Mechanical checks only; no semantic accuracy or human F1"
+}

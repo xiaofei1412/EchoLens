@@ -1,0 +1,20 @@
+{
+  "created_at": "2026-10-08T11:47:20.185942+00:00",
+  "note": "Final stage 2 code snapshot; extraction inference used the recorded frozen prompt and configuration. UI fixes do not rerun predictions.",
+  "sha256": {
+    "app/streamlit_app.py": "77a9ba897f7c6f21193bb4d2aa2b14d73345dec6159c1962cdd5ccc59b0e8b39",
+    ".streamlit/config.toml": "ce8cb0f6978024ea5633c6ed857640195d002d5fd306e887965b89af159b2de0",
+    "configs/stage2.json": "4ca85b7093b077a22c44e4cd5b15fb240fd7b61eb9a5c253e245f1992348b8b3",
+    "configs/models.json": "2ef3b2d36b3b8dd357cc608fa79fe6aa69393fb8144f46e60628aa66ca6e872f",
+    "src/echolens/workbench.py": "e6291a69f302f6e47995311ad6f7b65e3323c84da991250121833ebfe1330788",
+    "src/echolens/extract.py": "e3ef3a27ebd4e6b8c6cd115e6e659d17a9d9a396ffdbc6737a2744ebd5967675",
+    "scripts/prepare_stage2.py": "4274d6f3ef1a2b8d6593f4e286e236e1df38d1b296c0eff61cc8dd16dd23e23f",
+    "scripts/analyze_stage2.py": "cdf13fb8602c368f88c7356e20aa9d1db600de75c62d24262befb4541c9c3d5f",
+    "scripts/topics_stage2.py": "18fb898e92809d30189833f77432463cfe1c55cf689ea86fe55de96fcc8eafa5",
+    "scripts/run_workbench_job.py": "72ee80dbf6ab793134e264f24b78e6b9b1c7bc24d68875222347c6ab198e253c",
+    "scripts/verify_stage2.py": "01e974b8b9097ca83b16a29e38d489b8c54bee92b5ba755705a36f1b2f1b4a24",
+    "scripts/prepare_workbench_fixture.py": "868d2a06233eb04ea699d3d70d98e53c381ae8e3ace52a39cf23bc7043a14daa",
+    "tests/test_workbench.py": "9dee8d55d0c25b6ac586a2dd6fb6349ae0ceade87d6b8ff79c62704ab4dc7b15",
+    "requirements-stage2-lock.txt": "e87c2044deebf205a6690aaff5919176ff5f790720c2e95f1b5cab1ff59a96b4"
+  }
+}

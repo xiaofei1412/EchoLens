@@ -1,0 +1,3 @@
+# Preserve bytes used by frozen prompts, model manifests and run identities.
+# Text diffs remain enabled; only automatic end-of-line conversion is disabled.
+* -text

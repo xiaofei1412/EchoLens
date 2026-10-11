@@ -1,0 +1,21 @@
+{
+  "records": 80,
+  "batches": 16,
+  "first_batch": "batch-0005",
+  "last_batch": "batch-0020",
+  "length_strata": {
+    "1-200": 9,
+    "201-500": 51,
+    "501+": 20
+  },
+  "duplicate_groups": 80,
+  "prior20_id_group_overlap": 0,
+  "unchanged_original_text_and_spans": true,
+  "aspect_count": 28,
+  "added_aspect_count": 7,
+  "prepared_only": true,
+  "model_calls": 0,
+  "human_gold": false,
+  "training_ready": false,
+  "manifest_sha256": "0d0dcf1ec8cbdbc1e04481058fc18023278a29a5b98d3ce9e7ea0a437c7dc785"
+}

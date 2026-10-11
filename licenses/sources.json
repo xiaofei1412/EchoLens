@@ -1,0 +1,27 @@
+{
+  "apache": {
+    "url": "https://www.apache.org/licenses/LICENSE-2.0.txt",
+    "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+    "bytes": 11358
+  },
+  "qwen": {
+    "url": "https://huggingface.co/Qwen/Qwen3.5-4B/raw/851bf6e806efd8d0a36b00ddf55e13ccb7b8cd0a/LICENSE",
+    "sha256": "bbedc3fda3305820b977265f01b8619d87570a6739de3a5582c3464840f1e57a",
+    "bytes": 11544
+  },
+  "encoder": {
+    "url": "https://raw.githubusercontent.com/ymcui/Chinese-BERT-wwm/master/LICENSE",
+    "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+    "bytes": 11357
+  },
+  "embedding-card": {
+    "url": "https://huggingface.co/Qwen/Qwen3-Embedding-0.6B/raw/97b0c614be4d77ee51c0cef4e5f07c00f9eb65b3/README.md",
+    "sha256": "c34d9b7e5a267ad3fdd13227a253686bc90844ff4744a2a6a86c7c905e3d06f3",
+    "bytes": 17237
+  },
+  "asap": {
+    "url": "https://raw.githubusercontent.com/Meituan-Dianping/asap/975122a60065240124df62cb4d5dbfd19ed9ef2c/LICENSE",
+    "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+    "bytes": 11357
+  }
+}

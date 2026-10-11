@@ -1,0 +1,8 @@
+{
+  "records": 900,
+  "opinions": 12744,
+  "exact_original900_partition": true,
+  "source_versions_verified": true,
+  "human_gold": false,
+  "training_ready": false
+}

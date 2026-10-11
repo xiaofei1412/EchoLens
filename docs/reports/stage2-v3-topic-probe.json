@@ -1,0 +1,35 @@
+{
+  "purpose": "CPU feasibility on v2 training outputs, no semantic acceptance implied",
+  "results": [
+    {
+      "threshold": 0.35,
+      "linkage": "average",
+      "min_feedbacks": 10,
+      "topics": 81,
+      "outliers": 2685,
+      "largest_opinions": 505,
+      "median_feedbacks": 21.0,
+      "min_feedbacks_observed": 10
+    },
+    {
+      "threshold": 0.42,
+      "linkage": "average",
+      "min_feedbacks": 10,
+      "topics": 53,
+      "outliers": 1183,
+      "largest_opinions": 1203,
+      "median_feedbacks": 25.0,
+      "min_feedbacks_observed": 10
+    },
+    {
+      "threshold": 0.48,
+      "linkage": "average",
+      "min_feedbacks": 10,
+      "topics": 24,
+      "outliers": 413,
+      "largest_opinions": 1689,
+      "median_feedbacks": 186.5,
+      "min_feedbacks_observed": 11
+    }
+  ]
+}

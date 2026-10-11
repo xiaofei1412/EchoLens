@@ -1,0 +1,20 @@
+{
+  "records": 80,
+  "full_original_and_opinions_read": 80,
+  "regression5_included_not_added": true,
+  "records_changed_from_selected_base": 75,
+  "base_opinions": 821,
+  "final_opinions": 980,
+  "edit_events": 405,
+  "coverage_spans": 2602,
+  "warning_count": 1,
+  "question_records": 26,
+  "origin": "teacher_with_ai_revision",
+  "human_gold": false,
+  "training_ready": false,
+  "accuracy_established": false,
+  "original_files_unchanged": true,
+  "teacher_model_calls": 0,
+  "final_manifest_sha256": "881846e49be69276a5c253a20a1a2f1bd22f5bfe290f0bcfaad9671d59c1e8ae",
+  "release_next_wave_for_reviewed_annotation": true
+}

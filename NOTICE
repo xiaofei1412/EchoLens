@@ -1,0 +1,21 @@
+EchoLens
+Copyright 2026 EchoLens contributors
+
+EchoLens release v0.1.0.
+Original project code and EchoLens model modifications are offered under
+Apache-2.0, subject to the retained third-party notices and licenses below.
+
+The extraction adapter modifies Qwen/Qwen3.5-4B (Alibaba Cloud, Apache-2.0).
+The aspect classifier fine-tunes hfl/chinese-roberta-wwm-ext
+(Chinese-BERT-wwm contributors, Apache-2.0).
+Training/evaluation uses the ASAP dataset from Meituan-Dianping, whose
+repository includes an Apache-2.0 license. The EchoLens opinion annotations
+are AI-assisted derived labels, not the original ASAP annotation task.
+Qwen/Qwen3-Embedding-0.6B is loaded separately for topic embeddings.
+
+See THIRD_PARTY_NOTICES.md and licenses/ for upstream notices and sources.
+Original review texts, teacher outputs, optimizer states, and base model
+weights are not included in the EchoLens source or custom model bundle.
+No affiliation or endorsement by Meituan-Dianping, Alibaba, or a restaurant
+brand is implied. Trademarks and rights in third-party reviews are not
+granted by the EchoLens code license.

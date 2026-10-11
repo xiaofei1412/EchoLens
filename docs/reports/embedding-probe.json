@@ -1,0 +1,47 @@
+{
+  "model": {
+    "repo_id": "Qwen/Qwen3-Embedding-0.6B",
+    "revision": "97b0c614be4d77ee51c0cef4e5f07c00f9eb65b3",
+    "local_dir": "models/Qwen3-Embedding-0.6B",
+    "role": "semantic embedding smoke test"
+  },
+  "purpose": "synthetic smoke test only",
+  "shape": [
+    7,
+    1024
+  ],
+  "all_finite": true,
+  "top1_indices": [
+    0,
+    1,
+    2
+  ],
+  "expected_indices": [
+    0,
+    1,
+    2
+  ],
+  "cosine_scores": [
+    [
+      0.809867799282074,
+      0.31439879536628723,
+      0.4385802447795868,
+      0.3034042418003082
+    ],
+    [
+      0.40970996022224426,
+      0.5798008441925049,
+      0.3382115960121155,
+      0.33725324273109436
+    ],
+    [
+      0.3250153958797455,
+      0.33359017968177795,
+      0.63704913854599,
+      0.27648404240608215
+    ]
+  ],
+  "seconds": 0.37018470000475645,
+  "peak_allocated_gib": 1.1395087242126465,
+  "synthetic_top1_passed": true
+}

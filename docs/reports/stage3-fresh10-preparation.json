@@ -1,0 +1,37 @@
+{
+  "records": 10,
+  "batches": 5,
+  "seed": 2026100902,
+  "length_strata": {
+    "1-200": 4,
+    "201-500": 3,
+    "501+": 3
+  },
+  "text_lengths": [
+    104,
+    698,
+    200,
+    620,
+    200,
+    555,
+    200,
+    415,
+    289,
+    333
+  ],
+  "batch_characters": [
+    802,
+    820,
+    755,
+    615,
+    622
+  ],
+  "excluded_unique_source_ids": 1198,
+  "overlap_with_prior_exposure": 0,
+  "duplicate_groups": 10,
+  "rules_sha256": "cfb3222d74051f2776270c48b85e0e01cf0e98c02123c24829be6d6348ea0c41",
+  "manifest_sha256": "bdf555d56235a8c96b4e4a430a613cfbf45415769413591ce593505f01ce2e68",
+  "human_annotations": 0,
+  "model_run": false,
+  "note": "Fresh within project exposure; not guaranteed unseen in foundation model pretraining; no gold accuracy"
+}

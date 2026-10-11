@@ -1,0 +1,136 @@
+{
+  "review_date": "2026-10-09",
+  "origin": "AI review, not human gold",
+  "structural_check_scope": "all 80 records / 16 final r1 files",
+  "semantic_screen_scope": "all opinion target names, aggregate labels, mixed opinions and multi-target Taste excerpts; not full semantic adjudication of 80",
+  "deep_read_records": 32,
+  "deep_read_batches": 16,
+  "selection": "24 risk/length/domain/batch-selected records plus 8 cross-object candidates; nonrandom, cannot estimate population accuracy",
+  "deep_read_lengths": {
+    "1-200": 4,
+    "201-500": 14,
+    "501+": 14
+  },
+  "records": 80,
+  "opinions": 753,
+  "coverage_spans": 2602,
+  "question_records": 38,
+  "whole_record_single_span": 5,
+  "mixed_opinions": 22,
+  "unknown_aspects": 0,
+  "structural_warnings": 0,
+  "stale_attempts": [],
+  "declared_models": {
+    "unknown": 16
+  },
+  "declared_thinking": {
+    "unknown": 16
+  },
+  "requested_model": "gpt-5.6-sol",
+  "actual_model_identity_verified": false,
+  "multi_target_taste_screen_candidates": 29,
+  "multi_target_screen_records": 27,
+  "confirmed_cross_object_collapse_records_in_deep_read": 13,
+  "confirmed_cross_object_batches": 7,
+  "label_counts": {
+    "Service#Queue": 13,
+    "Service#Timely": 23,
+    "Food#Taste": 198,
+    "Food#Portion": 52,
+    "Location#Transportation": 16,
+    "General#Overall": 51,
+    "Price#Level": 20,
+    "Price#Discount": 12,
+    "General#Process": 29,
+    "General#Selection": 21,
+    "Food#Preparation": 14,
+    "Food#Recommend": 21,
+    "General#Quality": 38,
+    "Food#Ingredients": 16,
+    "Service#Hospitality": 54,
+    "General#Facilities": 18,
+    "Ambience#Decoration": 23,
+    "Food#Appearance": 13,
+    "Price#Cost_effective": 28,
+    "Location#Easy_to_find": 15,
+    "General#Competence": 9,
+    "Ambience#Space": 23,
+    "Ambience#Noise": 2,
+    "Service#Parking": 7,
+    "General#Reuse": 20,
+    "Ambience#Sanitary": 15,
+    "Location#Downtown": 2
+  },
+  "human_gold": false,
+  "training_ready": false,
+  "accuracy_established": false,
+  "decision": "Hold remaining 800; narrow object/evidence and scope rules, small same-input rerun, targeted repair; retain files and do not train now",
+  "source_manifest_sha256": "0d0dcf1ec8cbdbc1e04481058fc18023278a29a5b98d3ce9e7ea0a437c7dc785",
+  "rules_sha256": "18728ee17c2801b7f28c837c669b6c853408444f0eaaab0c9e12b85fec8b79c3",
+  "selected_outputs": {
+    "batch-0005": {
+      "file": "outputs/batch-0005.r1.json",
+      "sha256": "ff1aa5243af3f5e270edccc7f28ee29f8b7b77e949946d3f32b46775038ad5c7"
+    },
+    "batch-0006": {
+      "file": "outputs/batch-0006.r1.json",
+      "sha256": "2587f360718892d36fbe4a6b1b97da555647f3246baf287f034fc4dc9189f1bc"
+    },
+    "batch-0007": {
+      "file": "outputs/batch-0007.r1.json",
+      "sha256": "86d33312f8e6a14d9a18e26a9f816c86702e103edf3e3363fa50463dbfb4769d"
+    },
+    "batch-0008": {
+      "file": "outputs/batch-0008.r1.json",
+      "sha256": "55058d9eeb8ac2b0bac42eaf08dbbb34ab1502a5ae08c3d62607f07c79b0aec7"
+    },
+    "batch-0009": {
+      "file": "outputs/batch-0009.r1.json",
+      "sha256": "3bfab7865ff9e8a72d188f83097c8f647d86cbc4ed6f47d5d8fe467da0a9791e"
+    },
+    "batch-0010": {
+      "file": "outputs/batch-0010.r1.json",
+      "sha256": "2e73e20867d9e4b63070b021cdeff0a12fe84ac814bf4b25a6c0f65c34613cef"
+    },
+    "batch-0011": {
+      "file": "outputs/batch-0011.r1.json",
+      "sha256": "e17f520855bcc26ee970c699282e4e04125087ddc40f7f83b94034da74870602"
+    },
+    "batch-0012": {
+      "file": "outputs/batch-0012.r1.json",
+      "sha256": "de51632db5674c086bd7ddb67e0cbe0a2c9e7e4dbcf42af8b361dfbd2dc2c72e"
+    },
+    "batch-0013": {
+      "file": "outputs/batch-0013.r1.json",
+      "sha256": "bd76c4a9b47492a060320b5f56e4409d1b858db8d8cc39f5f02ec457704c25fe"
+    },
+    "batch-0014": {
+      "file": "outputs/batch-0014.r1.json",
+      "sha256": "6bbcee4b0506e4982012b3c6ef459f833e09545f79c90d808a92902c92f3728b"
+    },
+    "batch-0015": {
+      "file": "outputs/batch-0015.r1.json",
+      "sha256": "8dd392c16b017e1b9e151a45469045032d8fd9ff4d0e74b7b78a4a43c0a9ac13"
+    },
+    "batch-0016": {
+      "file": "outputs/batch-0016.r1.json",
+      "sha256": "c01463bd7ecc28d8b6478962ddc393fbad9ae663970d778124c96d896799e2ee"
+    },
+    "batch-0017": {
+      "file": "outputs/batch-0017.r1.json",
+      "sha256": "cea963b460af53519a065bf516e92d1af687dc96731a0f1dd683717c8abd9726"
+    },
+    "batch-0018": {
+      "file": "outputs/batch-0018.r1.json",
+      "sha256": "70a769b1cb4581fa7cc6eaf304a01c4bed06d49dd52449ed34ea86fd769ce62b"
+    },
+    "batch-0019": {
+      "file": "outputs/batch-0019.r1.json",
+      "sha256": "b78edd83055d65b2408b9fc18a654bd826d0c450547947a6b8a0f8e632d352d1"
+    },
+    "batch-0020": {
+      "file": "outputs/batch-0020.r1.json",
+      "sha256": "acad81140304d32ebf72eca4e55187c5d170c32371d5943950dcc9c5abbb7063"
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "rows": 20,
+  "model_revision": "851bf6e806efd8d0a36b00ddf55e13ccb7b8cd0a",
+  "source_ids": [
+    "14093",
+    "15645",
+    "2694",
+    "3814",
+    "29911",
+    "44452",
+    "2233",
+    "33804",
+    "14159",
+    "14067",
+    "21205",
+    "38086",
+    "39061",
+    "28605",
+    "437",
+    "38748",
+    "18721",
+    "40509",
+    "30661",
+    "6202"
+  ],
+  "baseline_prompt": "reading-v1",
+  "revised_prompt": "reading-v2",
+  "baseline_structure_and_verbatim_passed": 12,
+  "revised_structure_and_verbatim_passed": 16,
+  "revised_failed_ids": [
+    "28605",
+    "437",
+    "18721",
+    "30661"
+  ],
+  "limitations": [
+    "Same training exploration records used for prompt repair; not independent evaluation",
+    "Revised prompt requests only one opinion, reducing coverage",
+    "Checks require exact keys, non-empty strings and verbatim evidence; do not enforce requested character limits or semantic support",
+    "No human gold labels or fine-tuning quality claim"
+  ]
+}

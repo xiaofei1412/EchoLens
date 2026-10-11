@@ -1,0 +1,28 @@
+{
+  "records": 700,
+  "batches": 700,
+  "batch_size": 1,
+  "progress_sections": 7,
+  "parent_batches": "0041-0180",
+  "source_split": "clean-train",
+  "prior_records": 200,
+  "prior200_and_excluded_record_group_normalized_text_overlap": 0,
+  "excluded_source_ids": 1208,
+  "distinct_duplicate_groups": 700,
+  "distinct_normalized_texts": 700,
+  "original900_exact_partition": true,
+  "unchanged_original_text_and_spans": true,
+  "aspect_count": 28,
+  "same_rules_and_labels_as_wave100": true,
+  "length_strata": {
+    "1-200": 68,
+    "201-500": 421,
+    "501+": 211
+  },
+  "prepared_only": true,
+  "model_calls": 0,
+  "human_gold": false,
+  "training_ready": false,
+  "remaining_after_this_task": 0,
+  "manifest_sha256": "3e96412fa684fcb732e8585b32818dbcbb4e4ee619ae7a8a8c1af24cded122a8"
+}

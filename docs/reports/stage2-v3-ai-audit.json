@@ -1,0 +1,29 @@
+{
+  "scope": "Frozen additional clean-train sample, AI qualitative comparison only; not human gold or accuracy",
+  "sample_count": 32,
+  "assessment_counts": {
+    "mixed": 20,
+    "worse": 3,
+    "improved": 6,
+    "similar": 3
+  },
+  "records_with_observed_improvements": 27,
+  "records_with_remaining_concerns": 32,
+  "records_with_observed_regressions": 20,
+  "observed_risk_types": [
+    "Loss of valid aspects in multi-aspect spans",
+    "Evidence exists but omits the actual sentiment basis",
+    "Incorrect current-versus-comparison target attribution",
+    "Rule overrides can change correct model decisions",
+    "Implicit sentiment and factual descriptions remain ambiguous",
+    "Upstream omissions persist and unpunctuated contrast spans can be too broad"
+  ],
+  "detailed_notes": "Kept locally in artifacts/stage-02/v3-ai-audit-notes.json; not published as gold labels",
+  "limitations": [
+    "Improvements and regressions can coexist within one record",
+    "AI judgments require human confirmation; counts are not error rates",
+    "No prompt or semantic-rule tuning on this additional sample",
+    "The v2 and v3 audit samples differ; their concern counts are not directly comparable",
+    "A passed targeted case check does not validate the entire source comment"
+  ]
+}

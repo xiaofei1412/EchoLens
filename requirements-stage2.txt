@@ -1,0 +1,4 @@
+-r requirements-stage1-lock.txt
+streamlit==1.64.0
+bitsandbytes==0.50.2
+accelerate==1.13.0

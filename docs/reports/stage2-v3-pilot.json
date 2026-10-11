@@ -1,0 +1,156 @@
+{
+  "scope": "clean-train development only, no human-gold accuracy claimed",
+  "status": "partial",
+  "baseline_unchanged": true,
+  "same_input_and_classifier": true,
+  "case_checks": {
+    "38689_decoration": true,
+    "6479_space": true,
+    "44572_parking": true,
+    "32524_parking": true,
+    "5365_dish_context": true,
+    "5365_ingredients": true,
+    "22304_no_unsupported_praise": true,
+    "26480_indirect_portion_complaint": true,
+    "44206_transport_not_parking_queue": true,
+    "33803_temperature_not_wait": true,
+    "15748_preserve_negative_turn": true
+  },
+  "v2_same_processed_records": {
+    "attempted": 32,
+    "records_with_accepted_extraction": 32,
+    "opinions": 205,
+    "records_with_opinions": 32,
+    "valid_empty_records": 0,
+    "fully_valid_records": 5,
+    "partial_records": 27,
+    "rejected_opinion_errors": {
+      "方面、情感或意图无效": 21,
+      "意见数量超过提示上限，已逐条校验并保留，需复核": 6,
+      "引用不是可唯一对齐的原文": 5,
+      "原文意见字段无效": 1
+    },
+    "failures": {},
+    "target_present": 161,
+    "grounding_methods": {
+      "exact": 180,
+      "whitespace_restored": 23,
+      "ellipsis_restored": 2
+    },
+    "scope_uncertain": 0,
+    "merged_opinions": 4
+  },
+  "v3": {
+    "attempted": 32,
+    "records_with_accepted_extraction": 32,
+    "opinions": 200,
+    "records_with_opinions": 31,
+    "valid_empty_records": 1,
+    "fully_valid_records": 21,
+    "partial_records": 11,
+    "rejected_opinion_errors": {
+      "语义校对对象无效": 1
+    },
+    "failures": {},
+    "target_present": 190,
+    "grounding_methods": {
+      "exact": 200
+    },
+    "scope_uncertain": 1,
+    "merged_opinions": 3
+  },
+  "candidate_count": 219,
+  "discarded_candidates": 15,
+  "rule_adjusted_opinions": 6,
+  "aspect_opinion_counts": {
+    "v2": {
+      "Price#Discount": 19,
+      "Location#Downtown": 7,
+      "Service#Queue": 10,
+      "Food#Taste": 10,
+      "Price#Cost_effective": 13,
+      "Food#Ingredients": 11,
+      "Food#Recommend": 47,
+      "Service#Hospitality": 15,
+      "Price#Level": 11,
+      "Food#Portion": 12,
+      "Food#Preparation": 5,
+      "Ambience#Decoration": 16,
+      "Ambience#Space": 10,
+      "Service#Timely": 3,
+      "Ambience#Sanitary": 3,
+      "Ambience#Noise": 3,
+      "Service#Parking": 5,
+      "Food#Appearance": 3,
+      "Location#Transportation": 1,
+      "unknown": 1
+    },
+    "v3": {
+      "Price#Discount": 18,
+      "Location#Easy_to_find": 4,
+      "Service#Queue": 8,
+      "Food#Taste": 45,
+      "Food#Recommend": 20,
+      "Price#Cost_effective": 8,
+      "Food#Ingredients": 6,
+      "Service#Hospitality": 15,
+      "Food#Portion": 15,
+      "Food#Appearance": 8,
+      "Price#Level": 8,
+      "Ambience#Decoration": 15,
+      "Location#Downtown": 4,
+      "Ambience#Space": 6,
+      "Ambience#Sanitary": 6,
+      "Ambience#Noise": 2,
+      "unknown": 2,
+      "Location#Transportation": 3,
+      "Service#Parking": 4,
+      "Service#Timely": 2,
+      "Food#Preparation": 1
+    }
+  },
+  "additional_audit": {
+    "attempted": 0,
+    "records_with_accepted_extraction": 0,
+    "opinions": 0,
+    "records_with_opinions": 0,
+    "valid_empty_records": 0,
+    "fully_valid_records": 0,
+    "partial_records": 0,
+    "rejected_opinion_errors": {},
+    "failures": {},
+    "target_present": 0,
+    "grounding_methods": {},
+    "scope_uncertain": 0,
+    "merged_opinions": 0
+  },
+  "topics": 0,
+  "topic_sizes": {},
+  "topic_feedback_counts": [],
+  "topic_support_comparison": {
+    "v2": {
+      "topics": 687,
+      "under_10_feedbacks": 615,
+      "median_feedbacks": 4,
+      "max_feedbacks": 99
+    },
+    "v3": {
+      "topics": 0,
+      "under_10_feedbacks": 0,
+      "median_feedbacks": null,
+      "max_feedbacks": 0
+    }
+  },
+  "outlier_opinions": 0,
+  "duplicate_name_groups": 0,
+  "topic_seconds": null,
+  "generation_batch_seconds": 110.16881609940901,
+  "limitations": [
+    "Case checks are development regressions after feedback, not independent evaluation",
+    "Schema and source spans do not prove semantic correctness",
+    "Average linkage constrains merge averages, not every pair of members",
+    "Sparse opinions remain ungrouped; low prevalence is not low importance",
+    "V3 reviews v2 candidates plus uncovered contrast clauses, not exhaustive fresh extraction",
+    "Source spans are copied by code; all-exact matching is not a model quoting accuracy score"
+  ]
+}
